@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Корма для кошек: составы и цены</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+<style>
+/* Layout: summary strip → top picks per segment → filter bar → sortable table with expandable rows → price/quality chart → method. */
+:root{
+  --paper:#f5f6f2; --card:#ffffff; --ink:#1d2321; --muted:#5d6762; --line:#dde2dc;
+  --accent:#2f6d5b; --accent-soft:#e2efe9; --warm:#b5652a;
+  --good:#2f7d4f; --mid:#a7791b; --bad:#b34a3c;
+  --display:"Unbounded","Onest",system-ui,sans-serif; --body:"Onest",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#141816; --card:#1c211f; --ink:#e7ece8; --muted:#9aa59f; --line:#2e3532;
+  --accent:#6fbfa3; --accent-soft:#21342d; --warm:#e09a63; --good:#69c08a; --mid:#d8b058; --bad:#e2806f; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --paper:#141816; --card:#1c211f; --ink:#e7ece8; --muted:#9aa59f; --line:#2e3532;
+  --accent:#6fbfa3; --accent-soft:#21342d; --warm:#e09a63; --good:#69c08a; --mid:#d8b058; --bad:#e2806f; color-scheme:dark;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 var(--body)}
+.wrap{max-width:1280px;margin:0 auto;padding:28px 20px 64px;display:grid;gap:28px}
+h1,h2,h3{font-family:var(--display);font-weight:700;text-wrap:balance;margin:0}
+h1{font-size:clamp(22px,3.4vw,34px);line-height:1.15}
+h2{font-size:19px}
+h3{font-size:14px;font-weight:500}
+p{margin:0;max-width:72ch}
+.muted{color:var(--muted)}
+.num{font-variant-numeric:tabular-nums}
+header{display:grid;gap:12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:3px 10px;font-size:13px;color:var(--muted)}
+.chip b{color:var(--ink);font-weight:600}
+section{display:grid;gap:14px}
+.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.pick{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:10px;align-content:start}
+.pick ol{margin:0;padding:0;list-style:none;display:grid;gap:8px}
+.pick li{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center}
+.score{display:inline-grid;place-items:center;width:34px;height:26px;border-radius:6px;font-weight:700;font-size:13px;color:#fff}
+.s-good{background:var(--good)} .s-mid{background:var(--mid)} .s-bad{background:var(--bad)}
+.pick .nm{font-weight:500;line-height:1.25}
+.pick .pr{font-size:13px;color:var(--muted);text-align:right;white-space:nowrap}
+.bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:end;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;position:sticky;top:0;z-index:3}
+.grp{display:grid;gap:4px}
+.grp>span{font-size:12px;color:var(--muted)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{border:0;background:transparent;color:var(--ink);font:inherit;font-size:13px;padding:6px 11px;cursor:pointer}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--card)}
+input[type=search]{font:inherit;font-size:14px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);min-width:200px}
+label.ck{display:flex;gap:6px;align-items:center;font-size:13px;cursor:pointer}
+button:focus-visible,input:focus-visible,tr:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tablebox{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:1100px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:12px;font-weight:600;color:var(--muted);background:var(--card);position:sticky;top:0;cursor:pointer;white-space:nowrap;user-select:none}
+th[aria-sort="ascending"]::after{content:" ▲"} th[aria-sort="descending"]::after{content:" ▼"}
+td.r,th.r{text-align:right}
+td.num{white-space:nowrap}
+th.c-shop{white-space:normal;min-width:76px;line-height:1.25}
+tbody tr.row{cursor:pointer}
+tbody tr.row:hover{background:var(--accent-soft)}
+.fname{font-weight:600;line-height:1.25}
+.sub{font-size:12px;color:var(--muted)}
+.tag{display:inline-block;font-size:11px;padding:1px 6px;border-radius:4px;border:1px solid var(--line);color:var(--muted);margin:2px 4px 0 0;white-space:nowrap}
+.tag.ru{border-color:var(--accent);color:var(--accent)}
+.tag.imp{border-color:var(--warm);color:var(--warm)}
+.tag.warn{border-color:var(--bad);color:var(--bad)}
+.meter{display:flex;align-items:center;gap:6px;justify-content:flex-end}
+.meter i{display:block;height:6px;border-radius:3px;background:var(--accent);opacity:.75}
+.best{font-weight:700}
+.na{color:var(--muted)}
+tr.det td{background:var(--paper);padding:14px 16px}
+.detgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.detgrid h3{margin-bottom:6px}
+.detgrid ul{margin:0;padding-left:18px}
+.kv{display:grid;grid-template-columns:auto auto;gap:2px 14px;font-size:13px;justify-content:start}
+.offers a{color:var(--accent)}
+.chart{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}
+.chart svg{width:100%;height:auto;display:block}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.method{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:8px;align-content:start}
+.box ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.box a{color:var(--accent)}
+.empty{padding:24px;text-align:center;color:var(--muted)}
+.c-name{position:sticky;left:0;background:var(--card);z-index:1;min-width:220px}
+tbody tr.row:hover .c-name{background:var(--accent-soft)}
+th.c-name{z-index:2}
+select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink)}
+@media (max-width:900px){.wrap{gap:24px}.bar{position:static}}
+@media (max-width:760px){
+  .wrap{padding:20px 16px 48px}
+  body{font-size:15px}
+  .bar{gap:12px}
+  .grp,.grp.grow{width:100%}
+  .seg{display:flex;width:100%}
+  .seg button{flex:1;padding:10px 6px;font-size:14px}
+  input[type=search],select{min-width:0;width:100%;padding:10px 12px;font-size:16px}
+  label.ck{font-size:14px;padding:4px 0}
+  .ckgrp>span{display:none}
+  .tablebox{overflow:visible;background:transparent;border:0}
+  table{min-width:0;font-size:14px}
+  thead{display:none}
+  tbody,tbody tr,tbody td{display:block}
+  tbody tr.row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 12px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px}
+  tbody tr.row:hover{background:var(--card)}
+  tbody td{border:0;padding:0;text-align:left}
+  td.r{text-align:left}
+  .c-name{position:static;min-width:0;background:transparent;grid-column:1/3}
+  tbody tr.row:hover .c-name{background:transparent}
+  .c-total{grid-column:3;grid-row:1;text-align:right!important}
+  .c-rank,.c-first,.c-quality,.c-fdm,.c-shop{display:none!important}
+  td[data-l]::before{content:attr(data-l);display:block;font-size:12px;color:var(--muted);font-weight:400;margin-bottom:2px}
+  .meter{justify-content:flex-start}
+  tr.det{display:block;margin:-6px 0 12px}
+  tr.det td{display:block;border:1px solid var(--line);border-radius:10px;padding:14px}
+  .detgrid{grid-template-columns:1fr}
+  .empty{background:var(--card);border-radius:10px}
+  .pick{padding:14px}
+  .pick li{grid-template-columns:34px minmax(0,1fr) auto;gap:8px}
+  .method{grid-template-columns:1fr}
+  .chart{padding:10px 8px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Корма для кошек: составы, рейтинг и цены</h1>
+  <p class="muted" id="lead"></p>
+  <div class="chips" id="chips"></div>
+</header>
+
+<section aria-labelledby="h-picks">
+  <h2 id="h-picks">Лучшие в каждом сегменте</h2>
+  <p class="muted">Итоговый балл из 100: 85 баллов за состав и 15 за цену внутри своего типа (сухие сравниваются с сухими, влажные с влажными).</p>
+  <div class="picks" id="picks"></div>
+</section>
+
+<section aria-labelledby="h-table">
+  <h2 id="h-table">Сводная таблица</h2>
+  <div class="bar" role="group" aria-label="Фильтры">
+    <div class="grp"><span>Тип</span><div class="seg" id="f-kind"><button data-v="all" aria-pressed="true">Все</button><button data-v="dry" aria-pressed="false">Сухие</button><button data-v="wet" aria-pressed="false">Влажные</button></div></div>
+    <div class="grp"><span>Для кого</span><div class="seg" id="f-ster"><button data-v="all" aria-pressed="true">Все</button><button data-v="steril" aria-pressed="false">Стерилизованные</button><button data-v="normal" aria-pressed="false">Обычные</button></div></div>
+    <div class="grp"><span>Производство</span><div class="seg" id="f-orig"><button data-v="all" aria-pressed="true">Все</button><button data-v="RU" aria-pressed="false">Россия</button><button data-v="IMP" aria-pressed="false">Импорт</button></div></div>
+    <div class="grp grow"><span>Поиск</span><input type="search" id="q" placeholder="Бренд, вкус, ингредиент" aria-label="Поиск по корму"></div>
+    <div class="grp"><span>Сортировка</span><select id="sort" aria-label="Сортировка"><option value="total">Итоговый балл</option><option value="quality">Качество состава</option><option value="best100">Цена за 100 г: дешевле</option><option value="pdm">Белок на СВ</option><option value="cdm">Углеводы на СВ: меньше</option><option value="name">Название</option></select></div>
+    <div class="grp ckgrp"><span>&nbsp;</span><label class="ck"><input type="checkbox" id="f-an"> Только с анализом</label></div>
+  </div>
+  <p class="sub" id="count"></p>
+  <div class="tablebox"><table id="tbl"><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
+  <p class="sub">СВ — на сухое вещество, то есть без учёта воды: так сухие и влажные корма можно сравнивать между собой. Нажмите на строку, чтобы открыть состав и все цены. «300 г» и «1,5 кг» — стоимость такого количества корма по самой выгодной найденной цене за 100 г.</p>
+</section>
+
+<section aria-labelledby="h-chart">
+  <h2 id="h-chart">Качество состава и цена</h2>
+  <p class="muted">Каждая точка — корм из текущего фильтра. Правее и выше — лучший состав за меньшие деньги. Шкала цены логарифмическая.</p>
+  <div class="chart"><div class="legend" id="legend"></div><svg id="plot" viewBox="0 0 900 420" role="img" aria-label="Диаграмма: балл качества состава против цены за 100 г"></svg></div>
+</section>
+
+<section aria-labelledby="h-method">
+  <h2 id="h-method">Как считали</h2>
+  <div class="method">
+    <div class="box"><h3>Балл состава (85 из 100)</h3><ul>
+      <li><b>30</b> — белок на сухое вещество: 28% и ниже → 0, 55% и выше → 30.</li>
+      <li><b>20</b> — первый ингредиент: конкретное мясо или рыба — 20, «мясо и субпродукты» или «белки животного происхождения» — 9, злаки или растительный белок — 0. Минус 6 за изолят растительного белка или кукурузный глютен, минус 5 за сахар и красители.</li>
+      <li><b>15</b> — углеводы на сухое вещество (расчёт: 100 − белок − жир − клетчатка − зола − влага): 45% и выше → 0, 5% и ниже → 15.</li>
+      <li><b>10</b> — прозрачность: состав раскрыт полностью — 6, частично — 4, категориями — 1; плюс 4, если корм полнорационный, 2 — если это не указано.</li>
+      <li><b>10</b> — жирность под задачу: для стерилизованных 10–16% жира на сухое вещество, для обычных 14–24%. Штраф за выход из диапазона.</li>
+    </ul><p class="sub">«Качество» в таблице — эти 85 баллов, пересчитанные в шкалу 100.</p></div>
+    <div class="box"><h3>Цена (15 из 100) и пересчёт фасовок</h3><ul>
+      <li>Для каждого магазина берём фасовку с самой низкой ценой за 100 г из тех, что в наличии.</li>
+      <li>Лучшая цена за 100 г среди всех магазинов → место в рейтинге цен внутри своего типа: самый дешёвый получает 15, самый дорогой 0.</li>
+      <li>300 г и 1,5 кг = цена за 100 г × 3 и × 15. Это сравнимая стоимость, а не цена конкретной упаковки.</li>
+      <li>Ozon — цена с Ozon Картой, Яндекс Маркет — с картой Яндекс Пэй, Petshop — для Санкт-Петербурга. Все цены сняты <span id="d1"></span>.</li>
+    </ul></div>
+    <div class="box"><h3>Ограничения</h3><ul>
+      <li>Гарантированный анализ — минимальные или максимальные значения с этикетки, а не лабораторный замер. Роскачество находило расхождения с маркировкой.</li>
+      <li>Если влага, зола или клетчатка не указаны, подставлены типичные значения (сухие: 10 / 7 / 3%, влажные: 80 / 2,2 / 0,5%) — такие строки помечены.</li>
+      <li>Без анализа на упаковке корм получает 0 за белок, углеводы и жирность.</li>
+      <li>Страна производства взята из характеристик Ozon; где помечено «не проверено» — по аналогичной линейке бренда.</li>
+      <li>Рейтинг — ориентир по составу и цене, а не ветеринарная рекомендация. При болезнях почек, МКБ и аллергии корм выбирает врач.</li>
+    </ul></div>
+    <div class="box"><h3>Источники</h3><ul id="sources">
+      <li><a href="https://www.petshop.ru/catalog/cats/food/">Petshop.ru</a> — каталог (1748 сухих и влажных кормов), составы и анализ, отзывы.</li>
+      <li><a href="https://www.ozon.ru/">Ozon</a> и <a href="https://market.yandex.ru/">Яндекс Маркет</a> — цены и страна производства.</li>
+      <li><a href="https://rskrf.ru/ratings/tovary-dlya-doma/dlya-zhivotnykh/sukhoy-korm-dlya-koshek/">Роскачество: сухой корм для кошек</a> — независимая проверка 39 образцов.</li>
+      <li><a href="https://feedsmart.ru/korm-dlya-koshek">Feedsmart</a> и <a href="https://kotokorm.com/">Кормовед</a> — альтернативные рейтинги составов для сверки.</li>
+      <li>Нормы FEDIAF как ориентир по белку и жиру для взрослых кошек.</li>
+    </ul></div>
+  </div>
+</section>
+</div>
+<script>
+const DATA=/*DATA*/null;
+const items=DATA.items, SH=DATA.shops;
+const shopKeys=Object.keys(SH).filter(k=>items.some(x=>x.shops[k]));
+const ASC=k=>['name','seg','first','best100','p300','p1500','cdm'].includes(k)||k.startsWith('shop:');
+const st={kind:'all',ster:'all',orig:'all',q:'',an:false,sort:'total',dir:-1,open:new Set()};
+const fmt=(v,d=0)=>v==null?'—':Number(v).toLocaleString('ru-RU',{minimumFractionDigits:d,maximumFractionDigits:d});
+const rub=v=>v==null?'—':fmt(v)+' ₽';
+const cls=s=>s>=65?'s-good':s>=45?'s-mid':'s-bad';
+const FIRST={named_meat:'конкретное мясо/рыба',generic_meat:'мясо без вида',plant:'растительное'};
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function segName(x){return (x.kind==='dry'?'Сухой':'Влажный')+(x.steril?', стерил.':'')}
+function lead(){
+  const nShops=shopKeys.length;
+  document.getElementById('lead').textContent=`${items.length} популярных кормов для взрослых кошек: сухие и влажные, для стерилизованных и обычных, российского производства и импорт. Составы с Petshop.ru, цены из ${nShops} магазинов на ${new Date(DATA.date).toLocaleDateString('ru-RU',{day:'numeric',month:'long',year:'numeric'})}`;
+  document.getElementById('d1').textContent=new Date(DATA.date).toLocaleDateString('ru-RU',{day:'numeric',month:'long',year:'numeric'});
+  const c=(l,v)=>`<span class="chip">${l}: <b>${v}</b></span>`;
+  const n=f=>items.filter(f).length;
+  document.getElementById('chips').innerHTML=c('Сухих',n(x=>x.kind==='dry'))+c('Влажных',n(x=>x.kind==='wet'))+c('Для стерилизованных',n(x=>x.steril))+c('Производство РФ',n(x=>x.origin==='RU'))+c('Импорт',n(x=>x.origin==='IMP'))+c('Магазины',shopKeys.map(k=>SH[k]+' ('+n(x=>x.shops[k])+')').join(', '));
+}
+function picks(){
+  const segs=[['dry',true,'Сухие для стерилизованных'],['dry',false,'Сухие для обычных'],['wet',true,'Влажные для стерилизованных'],['wet',false,'Влажные для обычных']];
+  document.getElementById('picks').innerHTML=segs.map(([k,s,t])=>{
+    const top=items.filter(x=>x.kind===k&&x.steril===s).sort((a,b)=>b.total-a.total).slice(0,3);
+    return `<div class="pick"><h3>${t}</h3><ol>${top.map(x=>`<li><span class="score ${cls(x.total)} num">${x.total}</span><span class="nm">${esc(x.name)}<br><span class="sub">${esc(x.country||'')}${x.origin==='RU'?' · РФ':' · импорт'}</span></span><span class="pr num">${x.best100?fmt(x.best100,0)+' ₽/100 г':'нет цены'}<br>${x.best_shop?esc(SH[x.best_shop]):''}</span></li>`).join('')}</ol></div>`}).join('');
+}
+const COLS=[
+  {k:'rank',t:'#',r:true,nosort:true},
+  {k:'name',t:'Корм'},
+  {k:'total',t:'Итог',r:true},
+  {k:'best100',t:'Мин. ₽/100 г',r:true},
+  {k:'p300',t:'300 г',r:true},
+  {k:'p1500',t:'1,5 кг',r:true},
+  {k:'quality',t:'Качество',r:true},
+  {k:'seg',t:'Тип'},
+  {k:'pdm',t:'Белок СВ',r:true},
+  {k:'fdm',t:'Жир СВ',r:true},
+  {k:'cdm',t:'Углев. СВ',r:true},
+  {k:'first',t:'1-й ингредиент'},
+  ...shopKeys.map(s=>({k:'shop:'+s,t:SH[s]+', ₽/100 г',r:true,cls:'c-shop'}))
+];
+function val(x,k){if(k.startsWith('shop:')){const s=x.shops[k.slice(5)];return s?s.unit100:null}if(k==='seg')return segName(x);if(k==='first')return FIRST[x.first]||'';return x[k]}
+function filtered(){
+  const q=st.q.trim().toLowerCase();
+  return items.filter(x=>(st.kind==='all'||x.kind===st.kind)&&(st.ster==='all'||(st.ster==='steril')===x.steril)&&(st.orig==='all'||x.origin===st.orig)&&(!st.an||x.has_analysis)&&(!q||(x.name+' '+x.brand+' '+x.title+' '+(x.top5||[]).join(' ')).toLowerCase().includes(q)))
+  .sort((a,b)=>{const va=val(a,st.sort),vb=val(b,st.sort);if(va==null&&vb==null)return 0;if(va==null)return 1;if(vb==null)return -1;return (typeof va==='string'?va.localeCompare(vb,'ru'):va-vb)*st.dir});
+}
+function head(){
+  document.getElementById('thead').innerHTML='<tr>'+COLS.map(c=>`<th scope="col" class="${c.r?'r':''} ${c.cls||'c-'+c.k}" data-k="${c.k}" ${c.nosort?'':'tabindex="0"'} ${st.sort===c.k?`aria-sort="${st.dir>0?'ascending':'descending'}"`:''}>${c.t}</th>`).join('')+'</tr>';
+  document.querySelectorAll('#thead th[tabindex]').forEach(th=>{const go=()=>{const k=th.dataset.k;if(st.sort===k)st.dir*=-1;else{st.sort=k;st.dir=ASC(k)?1:-1}render()};th.onclick=go;th.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}}});
+}
+function meter(v,max){if(v==null)return '<span class="na">нет данных</span>';return `<span class="meter num">${fmt(v,1)}%<i style="width:${Math.max(4,Math.min(1,v/max)*46)}px"></i></span>`}
+function detail(x){
+  const s=x.scores;
+  const an=[['Белок',x.p],['Жир',x.f],['Клетчатка',x.fib],['Зола',x.ash],['Влага',x.moist],['Кальций',x.ca],['Фосфор',x.ph],['Магний',x.mg]].filter(a=>a[1]!=null).map(a=>`<span>${a[0]}</span><span class="num">${fmt(a[1],1)}%</span>`).join('');
+  const offers=Object.entries(x.shops).sort((a,b)=>a[1].unit100-b[1].unit100).map(([k,v])=>`<li><b>${esc(SH[k])}</b>: ${fmt(v.unit100,1)} ₽/100 г — упаковка ${v.pack_g>=1000?fmt(v.pack_g/1000,v.pack_g%1000?1:0)+' кг':v.pack_g+' г'} за ${rub(v.pack_price)}${v.in_stock?'':' (нет в наличии)'}${v.note?` <span class="sub">(${esc(v.note)})</span>`:''}${v.url?` · <a href="${esc(v.url)}">открыть</a>`:''}<br><span class="sub">все фасовки: ${v.offers.map(o=>(o.g>=1000?fmt(o.g/1000,o.g%1000?1:0)+' кг':o.g+' г')+' — '+rub(o.rub)).join('; ')}</span></li>`).join('');
+  return `<tr class="det"><td colspan="${COLS.length}"><div class="detgrid">
+  <div><h3>Первые ингредиенты</h3><ul>${(x.top5||[]).map(i=>`<li>${esc(i)}</li>`).join('')}</ul><p class="sub" style="margin-top:6px">${esc(x.title)}</p></div>
+  <div><h3>Анализ на этикетке</h3>${an?`<div class="kv">${an}</div>`:'<p class="muted">Гарантированный анализ не указан.</p>'}<p class="sub" style="margin-top:6px">${x.kcal?`Энергия ≈ ${fmt(x.kcal)} ккал/100 г${x.kcal_est?' (расчёт)':''}.`:''}${x.est.length?` Подставлены типичные значения: ${x.est.join(', ')}.`:''}</p></div>
+  <div><h3>Из чего балл</h3><div class="kv num"><span>Белок</span><span>${s.protein} / 30</span><span>Источник белка</span><span>${s.source} / 20</span><span>Углеводы</span><span>${s.carbs} / 15</span><span>Прозрачность</span><span>${s.transparency} / 10</span><span>Жирность под задачу</span><span>${s.fit} / 10</span><span>Цена</span><span>${s.price} / 15</span></div>${x.notes?`<p class="sub" style="margin-top:6px">${esc(x.notes)}</p>`:''}</div>
+  <div class="offers"><h3>Цены по магазинам</h3>${offers?`<ul>${offers}</ul>`:'<p class="muted">Нет в найденных магазинах.</p>'}${x.ps_reviews?`<p class="sub" style="margin-top:6px">Petshop: оценка ${x.ps_rating} из 5, ${fmt(x.ps_reviews)} отзывов по линейке.</p>`:''}</div>
+  </div></td></tr>`;
+}
+function body(rows){
+  const tb=document.getElementById('tbody');
+  if(!rows.length){tb.innerHTML=`<tr><td colspan="${COLS.length}" class="empty">Ничего не нашлось. Ослабьте фильтры или очистите поиск.</td></tr>`;return}
+  tb.innerHTML=rows.map((x,i)=>{
+    const tags=[`<span class="tag ${x.origin==='RU'?'ru':'imp'}">${esc(x.country||'?')}${x.country_verified?'':' · не проверено'}</span>`];
+    if(x.grain_free)tags.push('<span class="tag">без злаков</span>');
+    if(!x.has_analysis)tags.push('<span class="tag warn">нет анализа</span>');
+    if(x.plant_isolate)tags.push('<span class="tag warn">растит. белок</span>');
+    if(x.complete===false)tags.push('<span class="tag warn">не полнорационный</span>');
+    const cells=[
+      `<td class="r num sub c-rank">${i+1}</td>`,
+      `<td class="c-name"><div class="fname">${esc(x.name)}</div>${tags.join('')}</td>`,
+      `<td class="r c-total"><span class="score ${cls(x.total)} num" title="Итоговый балл">${x.total}</span></td>`,
+      `<td class="r num best c-best100" data-l="₽ за 100 г">${x.best100?fmt(x.best100,1):'—'}<div class="sub">${x.best_shop?esc(SH[x.best_shop]):''}</div></td>`,
+      `<td class="r num c-p300" data-l="300 г">${rub(x.p300)}</td>`,
+      `<td class="r num c-p1500" data-l="1,5 кг">${rub(x.p1500)}</td>`,
+      `<td class="r num c-quality">${x.quality}</td>`,
+      `<td class="c-seg" data-l="Тип">${segName(x)}</td>`,
+      `<td class="r c-pdm" data-l="Белок СВ">${meter(x.pdm,60)}</td>`,
+      `<td class="r num c-fdm">${x.fdm==null?'<span class="na">—</span>':fmt(x.fdm,1)+'%'}</td>`,
+      `<td class="r num c-cdm" data-l="Углеводы СВ">${x.cdm==null?'<span class="na">—</span>':fmt(x.cdm,1)+'%'}</td>`,
+      `<td class="sub c-first">${FIRST[x.first]||'—'}</td>`,
+      ...shopKeys.map(s=>{const v=x.shops[s];return `<td class="r num c-shop ${v&&x.best_shop===s?'best':''}">${v?fmt(v.unit100,1)+(v.in_stock?'':'*'):'<span class="na">—</span>'}</td>`})
+    ];
+    return `<tr class="row" tabindex="0" data-id="${x.id}" aria-expanded="${st.open.has(x.id)}">${cells.join('')}</tr>${st.open.has(x.id)?detail(x):''}`}).join('');
+  tb.querySelectorAll('tr.row').forEach(tr=>{const go=()=>{const id=+tr.dataset.id;st.open.has(id)?st.open.delete(id):st.open.add(id);render()};tr.onclick=e=>{if(e.target.closest('a'))return;go()};tr.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}}});
+}
+function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim()}
+function plot(rows){
+  const svg=document.getElementById('plot');const cw=Math.round(svg.parentElement.clientWidth-20)||900;const W=Math.max(300,Math.min(1240,cw)),narrow=W<600,H=narrow?Math.round(W*1.05):420,L=narrow?44:56,R=narrow?12:20,T=18,B=48;svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  const pts=rows.filter(x=>x.best100);
+  const colors={dry:css('--warm'),wet:css('--accent')};
+  document.getElementById('legend').innerHTML=`<span><span class="dot" style="background:${colors.dry}"></span>Сухие</span><span><span class="dot" style="background:${colors.wet}"></span>Влажные</span><span>Кружок — производство РФ, ромб — импорт</span>`;
+  if(!pts.length){svg.innerHTML=`<text x="${W/2}" y="${H/2}" text-anchor="middle" fill="${css('--muted')}">Нет кормов с ценой в этом фильтре</text>`;return}
+  const xs=pts.map(p=>Math.log10(p.best100));let x0=Math.floor(Math.min(...xs)*4)/4,x1=Math.ceil(Math.max(...xs)*4)/4;if(x1-x0<0.5){x1+=0.25;x0-=0.25}
+  const X=v=>L+(Math.log10(v)-x0)/(x1-x0)*(W-L-R),Y=v=>T+(1-v/100)*(H-T-B);
+  const ticks=(narrow?[10,30,100,300]:[5,10,20,30,50,75,100,150,200,300,500]).filter(t=>Math.log10(t)>=x0&&Math.log10(t)<=x1);
+  const grid=css('--line'),mu=css('--muted'),ink=css('--ink');
+  let g=[0,20,40,60,80,100].map(v=>`<line x1="${L}" x2="${W-R}" y1="${Y(v)}" y2="${Y(v)}" stroke="${grid}"/><text x="${L-8}" y="${Y(v)+4}" text-anchor="end" font-size="12" fill="${mu}">${v}</text>`).join('');
+  g+=ticks.map(t=>`<line x1="${X(t)}" x2="${X(t)}" y1="${T}" y2="${H-B}" stroke="${grid}"/><text x="${X(t)}" y="${H-B+18}" text-anchor="middle" font-size="12" fill="${mu}">${t} ₽</text>`).join('');
+  g+=`<text x="${(L+W-R)/2}" y="${H-8}" text-anchor="middle" font-size="12" fill="${mu}">Лучшая цена за 100 г</text><text transform="translate(14 ${(T+H-B)/2}) rotate(-90)" text-anchor="middle" font-size="12" fill="${mu}">Качество состава, из 100</text>`;
+  const top=new Set([...pts].sort((a,b)=>b.total-a.total).slice(0,narrow?0:6).map(p=>p.id));const ML=narrow?18:30;
+  const placed=[],labs={};
+  [...pts].filter(p=>top.has(p.id)).sort((a,b)=>b.total-a.total).forEach(p=>{
+    const cx=X(p.best100),cy=Y(p.quality),txt=p.name.length>ML?p.name.slice(0,ML-1)+'…':p.name,w=txt.length*6.4,h=14,left=cx>W-w-30;
+    for(const dy of [-9,17,-23,31]){const x0=left?cx-9-w:cx+9,y0=cy+dy-11,r={x0,y0,x1:x0+w,y1:y0+h};
+      if(r.y0<T||r.y1>H-B)continue;
+      if(placed.some(q=>r.x0<q.x1&&r.x1>q.x0&&r.y0<q.y1&&r.y1>q.y0))continue;
+      placed.push(r);labs[p.id]=`<text x="${left?cx-9:cx+9}" y="${cy+dy}" text-anchor="${left?'end':'start'}" font-size="11.5" fill="${ink}" paint-order="stroke" stroke="${css('--card')}" stroke-width="3">${esc(txt)}</text>`;break}
+  });
+  g+=pts.map(p=>{const cx=X(p.best100),cy=Y(p.quality),c=colors[p.kind];const m=p.origin==='RU'?`<circle cx="${cx}" cy="${cy}" r="6" fill="${c}" fill-opacity=".8" stroke="${css('--card')}"/>`:`<rect x="${cx-5.5}" y="${cy-5.5}" width="11" height="11" transform="rotate(45 ${cx} ${cy})" fill="${c}" fill-opacity=".8" stroke="${css('--card')}"/>`;
+    return `<g><title>${esc(p.name)}: качество ${p.quality}, ${fmt(p.best100,1)} ₽/100 г</title>${m}</g>`}).join('')+Object.values(labs).join('');
+  svg.innerHTML=g;
+}
+function render(){const rows=filtered();document.getElementById('count').textContent=`Показано ${rows.length} из ${items.length}. Нажмите на корм, чтобы открыть состав и все цены. * — нет в наличии.`;head();body(rows);plot(rows);const so=document.getElementById('sort');if([...so.options].some(o=>o.value===st.sort))so.value=st.sort}
+function bindSeg(id,key){document.querySelectorAll('#'+id+' button').forEach(b=>b.onclick=()=>{st[key]=b.dataset.v;document.querySelectorAll('#'+id+' button').forEach(o=>o.setAttribute('aria-pressed',o===b));render()})}
+bindSeg('f-kind','kind');bindSeg('f-ster','ster');bindSeg('f-orig','orig');
+document.getElementById('q').oninput=e=>{st.q=e.target.value;render()};
+document.getElementById('sort').onchange=e=>{st.sort=e.target.value;st.dir=ASC(st.sort)?1:-1;render()};
+document.getElementById('f-an').onchange=e=>{st.an=e.target.checked;render()};
+matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change',render);
+new MutationObserver(render).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+lead();picks();render();
+let rz;addEventListener('resize',()=>{clearTimeout(rz);rz=setTimeout(()=>plot(filtered()),150)});
+</script>
+</body>
+</html>

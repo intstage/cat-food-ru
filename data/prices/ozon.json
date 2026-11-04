@@ -1,0 +1,907 @@
+[
+ {
+  "id": 1018,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/29508517/",
+  "offers": [
+   {
+    "weight_g": 2000,
+    "price_rub": 2915,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/29508517/"
+   },
+   {
+    "weight_g": 4000,
+    "price_rub": 5608,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/29508518/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 121825,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 87137,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/4203485234/",
+  "offers": [
+   {
+    "weight_g": 2000,
+    "price_rub": 3816,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/4203485234/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 125931,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/1781889975/",
+  "offers": [
+   {
+    "weight_g": 2000,
+    "price_rub": 1746,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/1781889975/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 75740,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/140670236/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 649,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/140670236/"
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 1430,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/140670235/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 137202,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 112659,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/2226824350/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 476,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/2226824350/"
+   },
+   {
+    "weight_g": 2000,
+    "price_rub": 2271,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/2226824409/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 74040,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/138489910/",
+  "offers": [
+   {
+    "weight_g": 1200,
+    "price_rub": 513,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/138489910/"
+   },
+   {
+    "weight_g": 10000,
+    "price_rub": 4041,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/154390279/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 76441,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/137590850/",
+  "offers": [
+   {
+    "weight_g": 750,
+    "price_rub": 501,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/137590850/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 118590,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/4431344811/",
+  "offers": [
+   {
+    "weight_g": 600,
+    "price_rub": 164,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/4431344811/"
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 390,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/3722297430/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 97304,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/3722301162/",
+  "offers": [
+   {
+    "weight_g": 1500,
+    "price_rub": 1236,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/3722301162/"
+   },
+   {
+    "weight_g": 4000,
+    "price_rub": 2835,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/1780527477/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 3732,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 79071,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/138842582/",
+  "offers": [
+   {
+    "weight_g": 300,
+    "price_rub": 980,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/138842582/"
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 3822,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/138842583/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 47273,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/389317978/",
+  "offers": [
+   {
+    "weight_g": 350,
+    "price_rub": 182,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/389317978/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 127215,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 116385,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 1004,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/28188896/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 672,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/28188896/"
+   },
+   {
+    "weight_g": 2000,
+    "price_rub": 3180,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/29983442/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 13741,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/31235572/",
+  "offers": [
+   {
+    "weight_g": 1500,
+    "price_rub": 1940,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/31235572/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 124284,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 125938,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/1781889479/",
+  "offers": [
+   {
+    "weight_g": 2000,
+    "price_rub": 1887,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/1781889479/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 104233,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/2226822820/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 472,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/2226822820/"
+   },
+   {
+    "weight_g": 2000,
+    "price_rub": 2118,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/2226822811/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 87112,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 40107,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 137196,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/5906074566/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 394,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/5906074566/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 134145,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/3722296954/",
+  "offers": [
+   {
+    "weight_g": 1500,
+    "price_rub": 401,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/3722296954/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 114662,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/140701759/",
+  "offers": [
+   {
+    "weight_g": 1500,
+    "price_rub": 830,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/140701759/"
+   },
+   {
+    "weight_g": 3000,
+    "price_rub": 1538,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/140701758/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 9186,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/266189331/",
+  "offers": [
+   {
+    "weight_g": 10000,
+    "price_rub": 6171,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/266189331/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 92788,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/499414419/",
+  "offers": [
+   {
+    "weight_g": 600,
+    "price_rub": 309,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/499414419/"
+   },
+   {
+    "weight_g": 3000,
+    "price_rub": 1263,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/2968935121/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 79063,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 9837,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 1074,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/3625144451/",
+  "offers": [
+   {
+    "weight_g": 1500,
+    "price_rub": 3231,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/3625144451/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 96525,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/997728989/",
+  "offers": [
+   {
+    "weight_g": 1800,
+    "price_rub": 1076,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/997728989/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 100584,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 108800,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/3280955352/",
+  "offers": [
+   {
+    "weight_g": 2380,
+    "price_rub": 2401,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/3280955352/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 111024,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/1780527602/",
+  "offers": [
+   {
+    "weight_g": 1020,
+    "price_rub": 1002,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/1780527602/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 127153,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 129855,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 15545,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 81049,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/1021741138/",
+  "offers": [
+   {
+    "weight_g": 1950,
+    "price_rub": 1025,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/1021741138/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 86634,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 78141,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/768126833/",
+  "offers": [
+   {
+    "weight_g": 2380,
+    "price_rub": 3631,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/768126833/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 96486,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/1606155687/",
+  "offers": [
+   {
+    "weight_g": 2380,
+    "price_rub": 962,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/1606155687/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 129460,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/1290281426/",
+  "offers": [
+   {
+    "weight_g": 2100,
+    "price_rub": 980,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/1290281426/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 108218,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/3555996725/",
+  "offers": [
+   {
+    "weight_g": 2100,
+    "price_rub": 1390,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/3555996725/"
+   }
+  ],
+  "note": "Extra Meat, вероятно та же линейка",
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 129218,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/5881874985/",
+  "offers": [
+   {
+    "weight_g": 960,
+    "price_rub": 1137,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/5881874985/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 102252,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/5098515536/",
+  "offers": [
+   {
+    "weight_g": 1190,
+    "price_rub": 1391,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/5098515536/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 121822,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 103658,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/1780530083/",
+  "offers": [
+   {
+    "weight_g": 1020,
+    "price_rub": 914,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/1780530083/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 94403,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/499415517/",
+  "offers": [
+   {
+    "weight_g": 75,
+    "price_rub": 40,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/499415517/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 129862,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/3502872829/",
+  "offers": [
+   {
+    "weight_g": 1020,
+    "price_rub": 1407,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/3502872829/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 81014,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 108796,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/1137427855/",
+  "offers": [
+   {
+    "weight_g": 2380,
+    "price_rub": 2417,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/1137427855/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 71428,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/1614869746/",
+  "offers": [
+   {
+    "weight_g": 2380,
+    "price_rub": 1412,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/1614869746/"
+   },
+   {
+    "weight_g": 4760,
+    "price_rub": 1858,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/4566874952/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 87405,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 109663,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/563280307/",
+  "offers": [
+   {
+    "weight_g": 2100,
+    "price_rub": 896,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/563280307/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 130438,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/1239522033/",
+  "offers": [
+   {
+    "weight_g": 2380,
+    "price_rub": 1316,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/1239522033/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 78136,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/2916955280/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 169,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/2916955280/"
+   },
+   {
+    "weight_g": 2380,
+    "price_rub": 3631,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/220173097/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 130520,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/1559590589/",
+  "offers": [
+   {
+    "weight_g": 2100,
+    "price_rub": 1849,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/1559590589/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 82275,
+  "shop": "ozon",
+  "found": false,
+  "url": null,
+  "offers": [],
+  "note": null,
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 46003,
+  "shop": "ozon",
+  "found": true,
+  "url": "https://www.ozon.ru/product/1838838474/",
+  "offers": [
+   {
+    "weight_g": 3750,
+    "price_rub": 3551,
+    "price_note": "цена с Ozon Картой",
+    "url": "https://www.ozon.ru/product/1838838474/"
+   }
+  ],
+  "note": null,
+  "checked_at": "2026-11-04"
+ }
+]

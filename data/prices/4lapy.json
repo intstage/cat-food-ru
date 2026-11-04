@@ -1,0 +1,933 @@
+[
+ {
+  "id": 1018,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Royal Canin Sterilised 37 Regular Сухой корм для стерилизованных кошек с 1 до 7 лет, 400 гр.",
+  "url": "https://4lapy.ru/product/royal-canin-sterilised-37-regular-suhoj-korm-dlya-sterilizovannyh-koshek-s-1-do-7-let-400-gr-1012-1000724/",
+  "offers": [
+   {
+    "weight_g": 200,
+    "price_rub": 339,
+    "old_price_rub": null,
+    "in_stock": false
+   },
+   {
+    "weight_g": 400,
+    "price_rub": 679,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 1200,
+    "price_rub": 1989,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 2000,
+    "price_rub": 3215,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 4000,
+    "price_rub": 6189,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 10000,
+    "price_rub": 14235,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 121825,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": "PRO PLAN® Sterilised Adult Renal Plus Сухой корм для поддержания здоровья почек у стерилизованных кошек, с кроликом, 400 гр.",
+  "url": "https://4lapy.ru/product/pro-plan-r-sterilised-adult-renal-plus-suhoj-korm-dlya-podderzhaniya-zdorovya-pochek-u-sterilizovannyh-koshek-s-krolikom-400-gr-87396-1003946/",
+  "offers": [
+   {
+    "weight_g": 200,
+    "price_rub": 365,
+    "old_price_rub": null,
+    "in_stock": false
+   },
+   {
+    "weight_g": 400,
+    "price_rub": 717,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 600,
+    "price_rub": 735,
+    "old_price_rub": null,
+    "in_stock": false
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 2031,
+    "old_price_rub": 2389,
+    "in_stock": true
+   },
+   {
+    "weight_g": 3000,
+    "price_rub": 3855,
+    "old_price_rub": 4535,
+    "in_stock": true
+   },
+   {
+    "weight_g": 10000,
+    "price_rub": 12865,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04",
+  "note": "снято: неточное совпадение"
+ },
+ {
+  "id": 87137,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "GRANDORF Holistic Adult Sterilised Сухой корм для стерилизованных кошек, с индейкой, 400 гр.",
+  "url": "https://4lapy.ru/product/grandorf-holistic-adult-sterilised-suhoj-korm-dlya-sterilizovannyh-koshek-s-indejkoj-400-gr-89617-1063078/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 1125,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 2000,
+    "price_rub": 3735,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 125931,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 75740,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Monge Sterilised Сухой корм для стерилизованных кошек с пониженным содержанием калорий, с курицей, 400 гр.",
+  "url": "https://4lapy.ru/product/monge-sterilised-suhoj-korm-dlya-sterilizovannyh-koshek-s-ponizhennym-soderzhaniem-kalorij-s-kuritsej-400-gr-1160-1027895/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 689,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 2259,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 10000,
+    "price_rub": 11239,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 137202,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 112659,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 74040,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Perfect Fit Сухой корм для стерилизованных кошек, с курицей, 5 кг || Perfect Fit Сухой корм для стерилизованных кошек, с курицей, 1,2 кг",
+  "url": "https://4lapy.ru/product/perfect-fit-suhoj-korm-dlya-sterilizovannyh-koshek-s-kuritsej-5-kg-95604-1066632/",
+  "offers": [
+   {
+    "weight_g": 650,
+    "price_rub": 412,
+    "old_price_rub": 549,
+    "in_stock": false
+   },
+   {
+    "weight_g": 1200,
+    "price_rub": 641,
+    "old_price_rub": 915,
+    "in_stock": true
+   },
+   {
+    "weight_g": 2500,
+    "price_rub": 1253,
+    "old_price_rub": 1789,
+    "in_stock": true
+   },
+   {
+    "weight_g": 5000,
+    "price_rub": 3579,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 10000,
+    "price_rub": 7149,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 76441,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 118590,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 97304,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 3732,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 79071,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Farmina ND Prime Сухой корм для стерилизованных кошек, с курицей и гранатом, 300 гр.",
+  "url": "https://4lapy.ru/product/farmina-nd-prime-suhoj-korm-dlya-sterilizovannyh-koshek-s-kuritsej-i-granatom-300-gr-1197-1043145/",
+  "offers": [
+   {
+    "weight_g": 300,
+    "price_rub": 999,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 3899,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 5000,
+    "price_rub": 9949,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 10000,
+    "price_rub": 15145,
+    "old_price_rub": null,
+    "in_stock": false
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 47273,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Whiskas Сухой корм для стерилизованных кошек старше 1 года, с курицей, 350 гр.",
+  "url": "https://4lapy.ru/product/whiskas-suhoj-korm-dlya-sterilizovannyh-koshek-starshe-1-goda-s-kuritsej-350-gr-937-1016206/",
+  "offers": [
+   {
+    "weight_g": 350,
+    "price_rub": 215,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 5000,
+    "price_rub": 2599,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 127215,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 116385,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Брит Kea Sterilised Сухой корм для профилактики МКБ у стерилизованных кошек, с индейкой и уткой, 400 гр.",
+  "url": "https://4lapy.ru/product/brit-kea-sterilised-suhoj-korm-dlya-profilaktiki-mkb-u-sterilizovannyh-koshek-s-indejkoj-i-utkoj-400-gr-96618-1066899/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 470,
+    "old_price_rub": 559,
+    "in_stock": true
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 2035,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 7000,
+    "price_rub": 7039,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 1004,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Royal Canin Indoor 27 Home Life Сухой корм для домашних кошек в возрасте от 1 до 7 лет, 400 гр.",
+  "url": "https://4lapy.ru/product/royal-canin-indoor-27-home-life-suhoj-korm-dlya-domashnih-koshek-v-vozraste-ot-1-do-7-let-400-gr-1006-1000719/",
+  "offers": [
+   {
+    "weight_g": 200,
+    "price_rub": 359,
+    "old_price_rub": null,
+    "in_stock": false
+   },
+   {
+    "weight_g": 400,
+    "price_rub": 755,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 2000,
+    "price_rub": 3569,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 4000,
+    "price_rub": 6835,
+    "old_price_rub": null,
+    "in_stock": false
+   },
+   {
+    "weight_g": 10000,
+    "price_rub": 15699,
+    "old_price_rub": null,
+    "in_stock": false
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 13741,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "PRO PLAN® Delicate Digestion Сухой корм для взрослых кошек с чувствительным пищеварением, с высоким содержанием индейки, 400 гр.",
+  "url": "https://4lapy.ru/product/pro-plan-r-delicate-digestion-suhoj-korm-dlya-vzroslyh-koshek-s-chuvstvitelnym-pishchevareniem-s-vysokim-soderzhaniem-indejki-400-gr-87394-1000010/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 735,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 2031,
+    "old_price_rub": 2389,
+    "in_stock": true
+   },
+   {
+    "weight_g": 3000,
+    "price_rub": 3940,
+    "old_price_rub": 4635,
+    "in_stock": false
+   },
+   {
+    "weight_g": 10000,
+    "price_rub": 12865,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 124284,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 125938,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 104233,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 87112,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "GRANDORF Holistic Adult Indoor Сухой корм для взрослых домашних кошек, четыре вида мяса, 400 гр.",
+  "url": "https://4lapy.ru/product/grandorf-holistic-adult-indoor-suhoj-korm-dlya-vzroslyh-domashnih-koshek-chetyre-vida-myasa-400-gr-1177-1040172/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 1185,
+    "old_price_rub": null,
+    "in_stock": true
+   },
+   {
+    "weight_g": 2000,
+    "price_rub": 3915,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 40107,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 137196,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 134145,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 114662,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 9186,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 92788,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Felix Сухой корм для взрослых кошек Мясное объедение, с говядиной, 600 гр.",
+  "url": "https://4lapy.ru/product/felix-myasnoe-obedenie-suhoj-korm-dlya-vzroslyh-koshek-s-govyadinoj-600-g-1126-1049534/",
+  "offers": [
+   {
+    "weight_g": 600,
+    "price_rub": 363,
+    "old_price_rub": null,
+    "in_stock": false
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 79063,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Farmina ND Prime Сухой корм для кошек, с курицей и гранатом, 1,5 кг",
+  "url": "https://4lapy.ru/product/farmina-nd-prime-suhoj-korm-dlya-koshek-s-kuritsej-i-granatom-1-5-kg-94502-1043134/",
+  "offers": [
+   {
+    "weight_g": 300,
+    "price_rub": 999,
+    "old_price_rub": null,
+    "in_stock": false
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 3899,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 9837,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 1074,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 96525,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 100584,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "PRO PLAN® Sterilised Maintenance Влажный корм (пауч) для взрослых стерилизованных кошек, с говядиной в соусе, 85 гр.",
+  "url": "https://4lapy.ru/product/pro-plan-r-sterilised-maintenance-vlazhnyj-korm-pauch-dlya-vzroslyh-sterilizovannyh-koshek-s-govyadinoj-v-souse-85-gr-598-1009313/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 109,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 108800,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Royal Canin Sterilised Влажный корм (пауч) для стерилизованных кошек, в соусе, 85 гр.",
+  "url": "https://4lapy.ru/product/royal-canin-sterilised-vlazhnyj-korm-pauch-dlya-sterilizovannyh-koshek-v-souse-85-gr-626-1011129/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 96,
+    "old_price_rub": 113,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 111024,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 127153,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 129855,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 15545,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 81049,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 86634,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 78141,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 96486,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 129460,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Perfect Fit Влажный корм для стерилизованных кошек, паштет с индейкой, 75 г",
+  "url": "https://4lapy.ru/product/perfect-fit-vlazhnyj-korm-dlya-sterilizovannyh-koshek-pashtet-s-indejkoj-75-g-581-1049812/",
+  "offers": [
+   {
+    "weight_g": 75,
+    "price_rub": 49,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 108218,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 129218,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 102252,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Брит Премиум Влажный корм (пауч) для взрослых стерилизованных кошек, с цыпленком в соусе, 85 гр.",
+  "url": "https://4lapy.ru/product/brit-premium-vlazhnyj-korm-pauch-dlya-vzroslyh-sterilizovannyh-koshek-s-tsyplenkom-v-souse-85-gr-88975-1050545/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 77,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 121822,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "PRO PLAN® MAINTENANCE Влажный корм (пауч) для взрослых кошек, с уткой в соусе, 85 гр.",
+  "url": "https://4lapy.ru/product/pro-plan-r-maintenance-vlazhnyj-korm-pauch-dlya-vzroslyh-koshek-s-utkoj-v-souse-85-gr-601-1026172/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 113,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 103658,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 94403,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Whiskas Влажный корм (пауч) для кошек, рагу с индейкой и кроликом, 75 гр.",
+  "url": "https://4lapy.ru/product/whiskas-vlazhnyj-korm-pauch-dlya-koshek-ragu-s-indejkoj-i-krolikom-75-gr-486-1049444/",
+  "offers": [
+   {
+    "weight_g": 75,
+    "price_rub": 39,
+    "old_price_rub": null,
+    "in_stock": false
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 129862,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 81014,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "ГУРМЭ® Влажный корм (пауч) для взрослых кошек Желе Де-Люкс, с курицей в желе, 75 гр.",
+  "url": "https://4lapy.ru/product/gurme-r-vlazhnyj-korm-pauch-dlya-vzroslyh-koshek-zhele-de-lyuks-s-kuritsej-v-zhele-75-gr-89025-1038957/",
+  "offers": [
+   {
+    "weight_g": 75,
+    "price_rub": 51,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 108796,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Royal Canin Instinctive Влажный корм (пауч) для кошек в возрасте от 1 года до 7 лет, мелкие кусочки в соусе, 85 гр.",
+  "url": "https://4lapy.ru/product/royal-canin-instinctive-vlazhnyj-korm-pauch-dlya-koshek-v-vozraste-ot-1-goda-do-7-let-melkie-kusochki-v-souse-85-gr-615-1000889/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 98,
+    "old_price_rub": 115,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 71428,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 87405,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 109663,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 130438,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "NATURE`S TABLE Влажный корм (пауч) для кошек, говядина в соусе, 85 гр.",
+  "url": "https://4lapy.ru/product/nature-s-table-vlazhnyj-korm-pauch-dlya-koshek-govyadina-v-souse-85-gr-86609-1061155/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 69,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 78136,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 130520,
+  "shop": "4lapy",
+  "found": true,
+  "matched_title": "Crave Влажный корм (пауч) полнорационный для кошек всех пород старше 1 года, с говядиной, 70 гр.",
+  "url": "https://4lapy.ru/product/crave-vlazhnyj-korm-pauch-polnoratsionnyj-dlya-koshek-vseh-porod-starshe-1-goda-s-govyadinoj-70-gr-90013-1049422/",
+  "offers": [
+   {
+    "weight_g": 70,
+    "price_rub": 99,
+    "old_price_rub": null,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 82275,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 46003,
+  "shop": "4lapy",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ }
+]

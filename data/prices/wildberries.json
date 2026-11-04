@@ -1,0 +1,623 @@
+[
+ {
+  "id": 1018,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 2000,
+    "price_rub": 2995,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/28984605/detail.aspx"
+   },
+   {
+    "weight_g": 4000,
+    "price_rub": 5764,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/28984610/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 121825,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 1500,
+    "price_rub": 2036,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/830971070/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 87137,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 2000,
+    "price_rub": 3750,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/237802549/detail.aspx"
+   },
+   {
+    "weight_g": 4000,
+    "price_rub": 7500,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/391583109/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 125931,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 2000,
+    "price_rub": 1511,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/273575787/detail.aspx"
+   },
+   {
+    "weight_g": 12000,
+    "price_rub": 6677,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/462286639/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 75740,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 736,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/22936062/detail.aspx"
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 2155,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/217194896/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 137202,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 112659,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 10000,
+    "price_rub": 7404,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/569550482/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 74040,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 2500,
+    "price_rub": 2107,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/105354417/detail.aspx"
+   },
+   {
+    "weight_g": 5000,
+    "price_rub": 3386,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/523297198/detail.aspx"
+   },
+   {
+    "weight_g": 10000,
+    "price_rub": 5956,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/1867701856/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 76441,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 750,
+    "price_rub": 1085,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/180545572/detail.aspx"
+   },
+   {
+    "weight_g": 3000,
+    "price_rub": 2670,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/143472419/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 118590,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 97304,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 3732,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 79071,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 1500,
+    "price_rub": 3901,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/326217821/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 47273,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 127215,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 116385,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 1004,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 2000,
+    "price_rub": 2716,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/895352389/detail.aspx"
+   },
+   {
+    "weight_g": 4000,
+    "price_rub": 5931,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/131483261/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 13741,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 1500,
+    "price_rub": 2123,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/830939289/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 124284,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 558,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/274327173/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 125938,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 104233,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 87112,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 40107,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 137196,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 134145,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 114662,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 3000,
+    "price_rub": 1659,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/54631238/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 9186,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 92788,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 600,
+    "price_rub": 380,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/404061099/detail.aspx"
+   },
+   {
+    "weight_g": 3000,
+    "price_rub": 1246,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/1586986361/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 79063,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 9837,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 1074,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 1500,
+    "price_rub": 2317,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/895973399/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 96525,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 100584,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 108800,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 2380,
+    "price_rub": 2370,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/175470559/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 111024,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 127153,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 129855,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 15545,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 81049,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 86634,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 78141,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 96486,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 129460,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 108218,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 129218,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 102252,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 121822,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 103658,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 94403,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 129862,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 81014,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 108796,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 2380,
+    "price_rub": 2370,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/175475726/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 71428,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 2380,
+    "price_rub": 1179,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/267897043/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 87405,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 109663,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 2100,
+    "price_rub": 1050,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/78824403/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 130438,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 78136,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 132,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/933457813/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 130520,
+  "shop": "wildberries",
+  "found": true,
+  "offers": [
+   {
+    "weight_g": 2100,
+    "price_rub": 1877,
+    "price_note": "цена с WB Кошельком",
+    "url": "https://www.wildberries.ru/catalog/143687765/detail.aspx"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 82275,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 46003,
+  "shop": "wildberries",
+  "found": false,
+  "offers": [],
+  "checked_at": "2026-11-04"
+ }
+]

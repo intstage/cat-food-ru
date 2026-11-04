@@ -1,0 +1,891 @@
+[
+ {
+  "id": 1018,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм ROYAL CANIN Sterilised 37 сухой для стерилизованных кошек || Корм сухой ROYAL CANIN Sterilised 37 для стерилизованных кошек",
+  "url": "https://zoozavr.ru/product/index/id/4576665/",
+  "offers": [
+   {
+    "weight_g": 200,
+    "price_rub": 299,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/4576665/"
+   },
+   {
+    "weight_g": 400,
+    "price_rub": 579,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3139108/"
+   },
+   {
+    "weight_g": 1200,
+    "price_rub": 1599,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/4576663/"
+   },
+   {
+    "weight_g": 2000,
+    "price_rub": 2790,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3139109/"
+   },
+   {
+    "weight_g": 4000,
+    "price_rub": 5290,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3139110/"
+   },
+   {
+    "weight_g": 10000,
+    "price_rub": 12290,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3139111/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 121825,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм сухой для кошек PRO PLAN RENAL PLUS с кроликом для стерилизованных",
+  "url": "https://zoozavr.ru/product/index/id/3226238/",
+  "offers": [
+   {
+    "weight_g": 200,
+    "price_rub": 309,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3226238/"
+   },
+   {
+    "weight_g": 400,
+    "price_rub": 629,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3161567/"
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 2149,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3171839/"
+   },
+   {
+    "weight_g": 3000,
+    "price_rub": 4049,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3171833/"
+   },
+   {
+    "weight_g": 10000,
+    "price_rub": 11090,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3137540/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 87137,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм для кошек GRANDORF для стерилизованных индейка",
+  "url": "https://zoozavr.ru/product/index/id/6004699/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 1090,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/6004699/"
+   },
+   {
+    "weight_g": 2000,
+    "price_rub": 3490,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/6004700/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 125931,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 75740,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм сухой для кошек MONGE курица стерилизованных",
+  "url": "https://zoozavr.ru/product/index/id/3136697/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 729,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3136697/"
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 1912,
+    "old_price_rub": 2390,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3136698/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 137202,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 112659,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм для кошек SAVITA для стерилизованных сухой беззерновой с форелью",
+  "url": "https://zoozavr.ru/product/index/id/6720056/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 466,
+    "old_price_rub": 549,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/6720056/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 74040,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 76441,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 118590,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 97304,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм для стерилизованных кошек сухой Florida Sterilised с лососем и черникой || Корм для кошек Florida стерилизованных лосось-черника",
+  "url": "https://zoozavr.ru/product/index/id/6207109/",
+  "offers": [
+   {
+    "weight_g": 800,
+    "price_rub": 764,
+    "old_price_rub": 899,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/6207109/"
+   },
+   {
+    "weight_g": 4000,
+    "price_rub": 2294,
+    "old_price_rub": 2699,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/7070695/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 3732,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 79071,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": "Корм сухой для кошек Farmina ND курица с гранатом стерилизованных",
+  "url": "https://zoozavr.ru/product/index/id/3166451/",
+  "offers": [
+   {
+    "weight_g": 1500,
+    "price_rub": 3900,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3166451/"
+   }
+  ],
+  "checked_at": "2026-11-04",
+  "note": "снято: неточное совпадение"
+ },
+ {
+  "id": 47273,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 127215,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм для кошек Karmy Sterilized для стерилизованных индейка",
+  "url": "https://zoozavr.ru/product/index/id/6016285/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 385,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/6016285/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 116385,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 1004,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм сухой для кошек ROYAL CANIN Indoor 27 живущих в помещении || Корм для кошек ROYAL CANIN Indoor 27 взрослых живущих в помещении сухой",
+  "url": "https://zoozavr.ru/product/index/id/4576667/",
+  "offers": [
+   {
+    "weight_g": 200,
+    "price_rub": 319,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/4576667/"
+   },
+   {
+    "weight_g": 400,
+    "price_rub": 690,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3139098/"
+   },
+   {
+    "weight_g": 2000,
+    "price_rub": 3190,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3139099/"
+   },
+   {
+    "weight_g": 4000,
+    "price_rub": 6190,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3139100/"
+   },
+   {
+    "weight_g": 10000,
+    "price_rub": 13490,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3139101/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 13741,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм сухой для кошек PRO PLAN DELICATE DIGESTION с индейкой",
+  "url": "https://zoozavr.ru/product/index/id/3161571/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 629,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3161571/"
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 2149,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3161572/"
+   },
+   {
+    "weight_g": 3000,
+    "price_rub": 4049,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3161590/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 124284,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 125938,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 104233,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм для кошек SAVITA для взрослых сухой беззерновой с лососем и белой рыбой",
+  "url": "https://zoozavr.ru/product/index/id/6720059/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 466,
+    "old_price_rub": 549,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/6720059/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 87112,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм для кошек GRANDORF четыре мяса || Корм для кошек GRANDORF 4 вида мяса",
+  "url": "https://zoozavr.ru/product/index/id/6004695/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 1090,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/6004695/"
+   },
+   {
+    "weight_g": 2000,
+    "price_rub": 3590,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/6004696/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 40107,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 137196,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 134145,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 114662,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 9186,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 92788,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 79063,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 9837,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 1074,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 96525,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 100584,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм влажный для кошек PRO PLAN MAINTENANCE с говядиной в соусе для стерилизованных",
+  "url": "https://zoozavr.ru/product/index/id/3137095/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 98,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3137095/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 108800,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм влажный для кошек ROYAL CANIN Sterilised соус стерилизованных пауч",
+  "url": "https://zoozavr.ru/product/index/id/3139136/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 84,
+    "old_price_rub": 99,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3139136/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 111024,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм для кошек Florida для стерилизованных и кастрированных котов кусочки говядина желе пауч",
+  "url": "https://zoozavr.ru/product/index/id/6720106/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 75,
+    "old_price_rub": 89,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/6720106/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 127153,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 129855,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": "Корм для стерилизованных кошек SAVITA с уткой и овощами в соусе",
+  "url": "https://zoozavr.ru/product/index/id/7069164/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 71,
+    "old_price_rub": 84,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/7069164/"
+   }
+  ],
+  "checked_at": "2026-11-04",
+  "note": "снято: неточное совпадение"
+ },
+ {
+  "id": 15545,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 81049,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 86634,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 78141,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 96486,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 129460,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 108218,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 129218,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм для кошек Karmy Sterilized для кошек и кастрированных котов старше 1 года Лосось в желе",
+  "url": "https://zoozavr.ru/product/index/id/7149876/",
+  "offers": [
+   {
+    "weight_g": 80,
+    "price_rub": 63,
+    "old_price_rub": 79,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/7149876/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 102252,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 121822,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм влажный для кошек PRO PLAN MAINTENANCE с уткой в соусе",
+  "url": "https://zoozavr.ru/product/index/id/3137106/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 98,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3137106/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 103658,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм для кошек Florida с чувствительным пищеварением кусочки индейка морковь в соусе пауч",
+  "url": "https://zoozavr.ru/product/index/id/6720105/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 75,
+    "old_price_rub": 89,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/6720105/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 94403,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 129862,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 81014,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм влажный для кошек Гурмэ Желе Де-Люкс с курицей в желе",
+  "url": "https://zoozavr.ru/product/index/id/3292154/",
+  "offers": [
+   {
+    "weight_g": 75,
+    "price_rub": 35,
+    "old_price_rub": 44,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3292154/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 108796,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм влажный для кошек ROYAL CANIN Instinctive соус пауч",
+  "url": "https://zoozavr.ru/product/index/id/3139128/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 84,
+    "old_price_rub": 99,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3139128/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 71428,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 87405,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 109663,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 130438,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 78136,
+  "shop": "zoozavr",
+  "found": true,
+  "matched_title": "Корм для кошек MONGE Cat Grill итальянский кролик пауч",
+  "url": "https://zoozavr.ru/product/index/id/3483684/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 139,
+    "old_price_rub": null,
+    "in_stock": true,
+    "url": "https://zoozavr.ru/product/index/id/3483684/"
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 130520,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 82275,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ },
+ {
+  "id": 46003,
+  "shop": "zoozavr",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
+ }
+]
