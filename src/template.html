@@ -36,15 +36,19 @@ header{display:grid;gap:12px}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
 .chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:3px 10px;font-size:13px;color:var(--muted)}
 .chip b{color:var(--ink);font-weight:600}
+.chip{white-space:nowrap;line-height:1.5}
+.chipgrp{display:grid;gap:6px}
 section{display:grid;gap:14px}
-.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
-.pick{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:10px;align-content:start}
-.pick ol{margin:0;padding:0;list-style:none;display:grid;gap:8px}
-.pick li{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center}
+.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));grid-auto-rows:1fr;gap:14px}
+.pick{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;grid-template-rows:2.7em repeat(3,minmax(0,1fr));gap:8px}
+.pick h3{align-self:end;padding:0 4px 2px;line-height:1.3}
+.pick ol{display:contents;margin:0;padding:0;list-style:none}
+.pick li{display:grid;grid-template-columns:34px minmax(0,1fr);gap:10px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-height:84px}
 .score{display:inline-grid;place-items:center;width:34px;height:26px;border-radius:6px;font-weight:700;font-size:13px;color:#fff}
 .s-good{background:var(--good)} .s-mid{background:var(--mid)} .s-bad{background:var(--bad)}
 .pick .nm{font-weight:500;line-height:1.25}
-.pick .pr{font-size:13px;color:var(--muted);text-align:right;white-space:nowrap}
+.pick .meta{display:block;margin-top:4px;font-size:12.5px;font-weight:400;color:var(--muted);line-height:1.4}
+.pick .pr{color:var(--ink);font-weight:600}
 .bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:end;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;position:sticky;top:0;z-index:3}
 .grp{display:grid;gap:4px}
 .grp>span{font-size:12px;color:var(--muted)}
@@ -101,7 +105,7 @@ select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);
   .bar{gap:12px}
   .grp,.grp.grow{width:100%}
   .seg{display:flex;width:100%}
-  .seg button{flex:1;padding:10px 6px;font-size:14px}
+  .seg button{flex:1 1 auto;min-width:0;padding:10px 8px;font-size:14px;line-height:1.2;white-space:normal;overflow-wrap:anywhere}
   input[type=search],select{min-width:0;width:100%;padding:10px 12px;font-size:16px}
   label.ck{font-size:14px;padding:4px 0}
   .ckgrp>span{display:none}
@@ -112,6 +116,13 @@ select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);
   #tbl tbody tr.row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 12px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px}
   tbody tr.row:hover{background:var(--card)}
   #tbl tbody td{border:0;padding:0;text-align:left}
+  #tbl td{height:auto!important}
+  #tbl .c-name{width:auto!important;max-width:none!important}
+  #tbl .tags{flex-wrap:wrap!important;overflow:visible!important;mask-image:none!important;-webkit-mask-image:none!important}
+  #tbl .fname{-webkit-line-clamp:3!important}
+  #tbl .c-seg,#tbl .c-first,#tbl .c-best100 .sub,#tbl td.num{white-space:normal!important}
+  #tbl .tag{white-space:normal!important}
+  #tbl .tags .tag{flex:0 1 auto!important;max-width:100%}
   #tbl td.r{text-align:left}
   .c-name{position:static;min-width:0;background:transparent;grid-column:1/3}
   tbody tr.row:hover .c-name{background:transparent}
@@ -123,14 +134,25 @@ select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);
   #tbl tr.det td{display:block;border:1px solid var(--line);border-radius:10px;padding:14px}
   .detgrid{grid-template-columns:1fr}
   .empty{background:var(--card);border-radius:10px}
-  .pick{padding:14px}
-  .pick li{grid-template-columns:34px minmax(0,1fr) auto;gap:8px}
+  .pick{padding:12px}
+  .pick li{gap:8px;padding:10px;min-height:0}
   .method{grid-template-columns:1fr}
   .chart{padding:10px 8px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 
-.c-cmp{width:34px;text-align:center}
+.c-cmp{width:52px;text-align:center}
+#tbl td{vertical-align:middle;height:78px}
+#tbl .c-name{width:280px;max-width:280px}
+#tbl .fname{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+#tbl .tags{display:flex;gap:4px;flex-wrap:nowrap;overflow:hidden;margin-top:3px;mask-image:linear-gradient(90deg,#000 85%,transparent);-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent)}
+#tbl .tags .tag{margin:0;flex:none}
+#tbl .c-seg,#tbl .c-first{white-space:nowrap}
+#tbl tr.det td{height:auto;vertical-align:top}
+#tbl .c-best100 .sub{white-space:nowrap}
+#tbl th.c-cmp,#tbl td.c-cmp{padding-left:18px;padding-right:6px}
+#tbl th.c-rank,#tbl td.c-rank{width:34px;padding-left:4px;padding-right:8px}
+#tbl td.c-cmp input{margin-top:1px}
 .c-cmp input,.cmpck input{width:18px;height:18px;accent-color:var(--accent);cursor:pointer;margin:0}
 .cmpck{display:inline-flex;align-items:center;gap:8px;cursor:pointer}
 .cmpck span{display:none}
@@ -153,6 +175,7 @@ table.cmp td.win{color:var(--good);font-weight:700}
 table.cmp td.win::after{content:" ★";font-size:11px}
 table.cmp .x{display:block;margin-top:6px;font:inherit;font-size:12px;color:var(--muted);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline}
 table.cmp ul{margin:0;padding-left:16px}
+table.cmp td,table.cmp th{overflow-wrap:break-word;hyphens:auto}
 .cmphint{font-size:13px;color:var(--muted)}
 .cmpact{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .cmpact button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:6px 12px;cursor:pointer}
@@ -166,6 +189,7 @@ body.hasbar .wrap{padding-bottom:96px}
   <h1>Корма для кошек: составы, рейтинг и цены</h1>
   <p class="muted" id="lead"></p>
   <div class="chips" id="chips"></div>
+  <div class="chipgrp"><span class="sub">Цены из магазинов, число кормов:</span><div class="chips" id="shopchips"></div></div>
 </header>
 
 <section aria-labelledby="h-picks">
@@ -247,20 +271,21 @@ const rub=v=>v==null?'—':fmt(v)+' ₽';
 const cls=s=>s>=65?'s-good':s>=45?'s-mid':'s-bad';
 const FIRST={named_meat:'конкретное мясо/рыба',generic_meat:'мясо без вида',plant:'растительное'};
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-function segName(x){return (x.kind==='dry'?'Сухой':'Влажный')+(x.steril?', стерил.':'')}
+function segName(x){return (x.kind==='dry'?'Сухой':'Влажный')+(x.steril?' · стерил.':'')}
 function lead(){
   const nShops=shopKeys.length;
-  document.getElementById('lead').textContent=`${items.length} популярных кормов для взрослых кошек: сухие и влажные, для стерилизованных и обычных, российского производства и импорт. Составы с Petshop.ru, цены из ${nShops} магазинов на ${new Date(DATA.date).toLocaleDateString('ru-RU',{day:'numeric',month:'long',year:'numeric'})}`;
+  document.getElementById('lead').textContent=`${items.length} популярных кормов для взрослых кошек: сухие и влажные, для стерилизованных и обычных, российского производства и импорт. Составы с Petshop.ru и сайтов производителей, цены из ${nShops} магазинов на ${new Date(DATA.date).toLocaleDateString('ru-RU',{day:'numeric',month:'long',year:'numeric'})}`;
   document.getElementById('d1').textContent=new Date(DATA.date).toLocaleDateString('ru-RU',{day:'numeric',month:'long',year:'numeric'});
   const c=(l,v)=>`<span class="chip">${l}: <b>${v}</b></span>`;
   const n=f=>items.filter(f).length;
-  document.getElementById('chips').innerHTML=c('Сухих',n(x=>x.kind==='dry'))+c('Влажных',n(x=>x.kind==='wet'))+c('Для стерилизованных',n(x=>x.steril))+c('Производство РФ',n(x=>x.origin==='RU'))+c('Импорт',n(x=>x.origin==='IMP'))+c('Магазины',shopKeys.map(k=>SH[k]+' ('+n(x=>x.shops[k])+')').join(', '));
+  document.getElementById('chips').innerHTML=c('Сухих',n(x=>x.kind==='dry'))+c('Влажных',n(x=>x.kind==='wet'))+c('Для стерилизованных',n(x=>x.steril))+c('Производство РФ',n(x=>x.origin==='RU'))+c('Импорт',n(x=>x.origin==='IMP'));
+  document.getElementById('shopchips').innerHTML=shopKeys.map(k=>[k,n(x=>x.shops[k])]).sort((a,b)=>b[1]-a[1]).map(([k,v])=>c(SH[k],v)).join('');
 }
 function picks(){
   const segs=[['dry',true,'Сухие для стерилизованных'],['dry',false,'Сухие для обычных'],['wet',true,'Влажные для стерилизованных'],['wet',false,'Влажные для обычных']];
   document.getElementById('picks').innerHTML=segs.map(([k,s,t])=>{
     const top=items.filter(x=>x.kind===k&&x.steril===s).sort((a,b)=>b.total-a.total).slice(0,3);
-    return `<div class="pick"><h3>${t}</h3><ol>${top.map(x=>`<li><span class="score ${cls(x.total)} num">${x.total}</span><span class="nm">${esc(x.name)}<br><span class="sub">${esc(x.country||'')}${x.origin==='RU'?' · РФ':' · импорт'}</span></span><span class="pr num">${x.best100?fmt(x.best100,0)+' ₽/100 г':'нет цены'}<br>${x.best_shop?esc(SH[x.best_shop]):''}</span></li>`).join('')}</ol></div>`}).join('');
+    return `<div class="pick"><h3>${t}</h3><ol>${top.map(x=>`<li><span class="score ${cls(x.total)} num">${x.total}</span><span class="nm">${esc(x.name)}<span class="meta"><span class="pr num">${x.best100?fmt(x.best100,0)+' ₽/100 г':'нет цены'}</span>${x.best_shop?' · '+esc(SH[x.best_shop]):''}<br>${esc(x.country||'')}${x.origin==='RU'?' · РФ':' · импорт'}</span></span></li>`).join('')}</ol></div>`}).join('');
 }
 const COLS=[
   {k:'cmp',t:'',nosort:true},
@@ -312,7 +337,7 @@ function body(rows){
     const cells=[
       `<td class="c-cmp"><label class="cmpck"><input type="checkbox" data-cmp="${x.id}" ${st.cmp.includes(x.id)?'checked':''} aria-label="Добавить к сравнению: ${esc(x.name)}"><span>Сравнить</span></label></td>`,
       `<td class="r num sub c-rank">${i+1}</td>`,
-      `<td class="c-name"><div class="fname">${esc(x.name)}</div>${tags.join('')}</td>`,
+      `<td class="c-name" title="${esc(x.name)}"><div class="fname">${esc(x.name)}</div><div class="tags">${tags.join('')}</div></td>`,
       `<td class="r c-total"><span class="score ${cls(x.total)} num" title="Итоговый балл">${x.total}</span></td>`,
       `<td class="r num best c-best100" data-l="₽ за 100 г">${x.best100?fmt(x.best100,1):'—'}<div class="sub">${x.best_shop?esc(SH[x.best_shop]):''}</div></td>`,
       `<td class="r num c-p300" data-l="300 г">${rub(x.p300)}</td>`,

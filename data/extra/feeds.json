@@ -1,0 +1,337 @@
+[
+ {
+  "key": "alleva",
+  "id": 900001,
+  "brand": "Alleva",
+  "title": "ALLEVA HOLISTIC ADULT & STERILIZED CAT NEUTERED CHICKEN & DUCK беззерновой для взрослых кастрированных котов и стерилизованных кошек с курицей, уткой, волокнами сахарного тростника и женьшенем",
+  "name": "Alleva Holistic Neutered курица и утка",
+  "line_flavor": "Holistic Adult Cat Neutered (Sterilized), курица и утка",
+  "ingredients_top5": [
+   "дегидратированная курица (45%)",
+   "свежая курица без костей (20%)",
+   "дегидратированная утка (12%)",
+   "батат",
+   "волокна сахарного тростника (4%)"
+  ],
+  "ingredients_full": "Дегидратированная курица (45%), свежая курица без костей (20%), дегидратированная утка (12%), батат, волокна сахарного тростника (4%), куриный жир, гороховый крахмал, рыбий жир (сельди), волокна гороха, куриная печень, корень цикория (источник инулина и ФОС), подорожник, инактивированные сухие пивные дрожжи (источник МОС), куриные хрящи (источник глюкозамина и хондроитина), карбонат калия, корень женьшеня (Panax ginseng) (0,10%), розмарин лекарственный, куркума длинная, гвоздика, лимон (0,05%), сок юкки. Добавки: витамины A, D3, E, B1, B2, B6, B12, ниацинамид, биотин, фолиевая кислота, D-пантотенат кальция, витамин C, бета-каротин, холина хлорид; хелаты цинка, марганца, железа, меди; DL-метионин, таурин, L-карнитин. Антиоксиданты: экстракты токоферолов.",
+  "first_ingredient_type": "named_meat",
+  "meat_share_pct": 77,
+  "grain_free": true,
+  "has_plant_protein_isolate": false,
+  "has_sugar_or_artificial": false,
+  "composition_disclosed": "full",
+  "protein": 46.0,
+  "fat": 12.0,
+  "fiber": 5.0,
+  "ash": 8.9,
+  "moisture": 7.0,
+  "calcium": 1.6,
+  "phosphorus": 1.2,
+  "magnesium": 0.09,
+  "kcal_per_100g": 364,
+  "complete_feed": true,
+  "producer_country": "Италия",
+  "country_verified": true,
+  "notes": "Беззерновой, 77% мясных ингредиентов (курица и утка, часть свежая), крахмал 17%, клетчатка 5% (волокна тростника и гороха). Расхождение с цифрами пользователя: фосфор по этикетке 1,2%, а не 1,4%; остальное совпадает, Mg 0,09%.",
+  "sources": [
+   "https://magizoo.ru/catalog/holistic_3/747006/",
+   "https://www.21vek.by/cat_food/p00288h_alleva.html"
+  ],
+  "prices": [
+   {
+    "shop": "magizoo",
+    "url": "https://magizoo.ru/catalog/holistic_3/1335096/",
+    "offers": [
+     {
+      "weight_g": 400,
+      "price_rub": 770,
+      "in_stock": true
+     },
+     {
+      "weight_g": 1500,
+      "price_rub": 2265,
+      "in_stock": false
+     },
+     {
+      "weight_g": 10000,
+      "price_rub": 13432,
+      "in_stock": true
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "key": "blitz",
+  "id": 900002,
+  "brand": "Blitz",
+  "title": "Blitz Holistic STERILISED DUCK & RABBIT «Утка и кролик» — низкозерновой сухой корм для стерилизованных кошек и кастрированных котов со свежей уткой, кроликом и рыбой",
+  "name": "Blitz Holistic Sterilised утка и кролик",
+  "line_flavor": "Holistic Sterilised, утка и кролик (Duck & Rabbit)",
+  "ingredients_top5": [
+   "дегидрированное мясо индейки (22%)",
+   "свежее мясо утки (9%)",
+   "свежее мясо кролика (9%)",
+   "свежая сельдь (6,5%)",
+   "гидролизованная печень (4,5%)"
+  ],
+  "ingredients_full": "Дегидрированное мясо индейки (22%), свежее мясо утки (9%), свежее мясо кролика (9%), свежая сельдь (6,5%), гидролизованная печень (4,5%), картофельные хлопья, рис, картофельный протеин, жир животный, горох, сушеная мякоть свеклы, льняное семя, минералы, пивные дрожжи, рыбий жир, яичный порошок, холин хлорид, таурин, DL-метионин, витамины, сушеные морские водоросли (спирулина), корень цикория (инулин FOS), юкка шидигера, сушеная клюква, сушеная черника, L-карнитин, розмарин.",
+  "first_ingredient_type": "named_meat",
+  "meat_share_pct": 51,
+  "grain_free": false,
+  "has_plant_protein_isolate": true,
+  "has_sugar_or_artificial": false,
+  "composition_disclosed": "full",
+  "protein": 32.0,
+  "fat": 13.0,
+  "fiber": 2.9,
+  "ash": 6.8,
+  "moisture": 8.0,
+  "calcium": 1.0,
+  "phosphorus": 0.9,
+  "magnesium": 0.08,
+  "kcal_per_100g": 392,
+  "complete_feed": true,
+  "producer_country": "Россия",
+  "country_verified": true,
+  "notes": "Вкус — «Утка и кролик» (Duck & Rabbit), не «индейка и кролик»: «кролик с индейкой» у Blitz Holistic Sterilised есть только как влажное суфле. Низкозерновой (рис), есть картофельный протеин. Цифры пользователя совпадают, первоисточник добавляет Ca 1%, P 0,9%, Mg 0,08%.",
+  "sources": [
+   "https://blitzpet.ru/products/blitz-holistic-utka-i-krolik-nizkozernovoj-suhoj-korm-dlya-sterilizovannyh-koshek/",
+   "https://magizoo.ru/catalog/suhie-korma-dlya-koshek-blitz/blitz_holistic_adult_cat_sterilised_duck_rabbit_dlya_vzroslykh_kastrirovannykh_kotov_i_sterilizovann/"
+  ],
+  "prices": [
+   {
+    "shop": "magizoo",
+    "url": "https://magizoo.ru/catalog/suhie-korma-dlya-koshek-blitz/blitz_holistic_adult_cat_sterilised_duck_rabbit_dlya_vzroslykh_kastrirovannykh_kotov_i_sterilizovann_3/",
+    "offers": [
+     {
+      "weight_g": 400,
+      "price_rub": 753,
+      "in_stock": true
+     },
+     {
+      "weight_g": 1500,
+      "price_rub": 2403,
+      "in_stock": true
+     },
+     {
+      "weight_g": 5000,
+      "price_rub": 7105,
+      "in_stock": true
+     }
+    ]
+   },
+   {
+    "shop": "other:blitzpet.ru",
+    "url": "https://blitzpet.ru/products/blitz-holistic-utka-i-krolik-nizkozernovoj-suhoj-korm-dlya-sterilizovannyh-koshek/",
+    "offers": [
+     {
+      "weight_g": 400,
+      "price_rub": 753,
+      "in_stock": true
+     },
+     {
+      "weight_g": 1500,
+      "price_rub": 2403,
+      "in_stock": true
+     },
+     {
+      "weight_g": 5000,
+      "price_rub": 4263,
+      "in_stock": true
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "key": "zoogurman",
+  "id": 900003,
+  "brand": "Зоогурман",
+  "title": "Корм сухой Зоогурман для взрослых кошек Sterilized Индейка (линейка Zoogurman cat SuperPremium)",
+  "name": "Зоогурман Sterilized индейка",
+  "line_flavor": "Zoogurman cat SuperPremium Sterilized, индейка",
+  "ingredients_top5": [
+   "дегидрированное мясо птицы (птица, индейка)",
+   "пшеница",
+   "кукуруза",
+   "рис",
+   "животные жиры"
+  ],
+  "ingredients_full": "Дегидрированное мясо птицы (птица, индейка), пшеница, кукуруза, рис, животные жиры, растительная клетчатка, гидролизованные животные белки, кукурузный белок, пивные дрожжи, лососевый жир, витаминно-минеральный комплекс (витамины: А, D3, Е, В1, В2, В3, В4, В5, В6, В9 (фолиевая кислота), В12, Н (биотин) и микроэлементы: железо, медь, цинк, марганец, йод, селен, калий, натрий), таурин, DL-метионин, L-лизин, шиповника плоды, юкка шидигера (экстракт), антиоксиданты.",
+  "first_ingredient_type": "generic_meat",
+  "meat_share_pct": null,
+  "grain_free": false,
+  "has_plant_protein_isolate": true,
+  "has_sugar_or_artificial": false,
+  "composition_disclosed": "partial",
+  "protein": 27.0,
+  "fat": 13.0,
+  "fiber": 2.5,
+  "ash": 6.0,
+  "moisture": 8.0,
+  "calcium": 1.1,
+  "phosphorus": 0.85,
+  "magnesium": 0.16,
+  "kcal_per_100g": 376,
+  "complete_feed": true,
+  "producer_country": "Россия",
+  "country_verified": true,
+  "notes": "Под цифры пользователя подходит Zoogurman Sterilized Индейка (27/13) из линейки Zoogurman cat SuperPremium, все значения совпадают. ZOOGURMAN RED «Индейка с тыквой» из Зоозавра — другой продукт (Redline 30/12, в составе индейка, морская рыба, пшеница), поэтому его цена не взята. Мясо «птица» без процентов, много зерна, есть кукурузный белок.",
+  "sources": [
+   "https://zoogurman.ru/shop/zoogurman/korm-dlya-koshek-zoogurman/suhoy-korm-koshki-breedersway-korm-dlya-koshek-zoogurman/zoogurman-cat-superpremium/1-5kg-zoogurman-cat-sterilized-indeyka-27-13-suhoy-korm/",
+   "https://magizoo.ru/catalog/suhoj-korm-dlya-koshek-zoogurman/208507/"
+  ],
+  "prices": [
+   {
+    "shop": "magizoo",
+    "url": "https://magizoo.ru/catalog/suhoj-korm-dlya-koshek-zoogurman/1326792/",
+    "offers": [
+     {
+      "weight_g": 350,
+      "price_rub": 299,
+      "in_stock": true
+     },
+     {
+      "weight_g": 1500,
+      "price_rub": 1113,
+      "in_stock": false
+     },
+     {
+      "weight_g": 10000,
+      "price_rub": 5919,
+      "in_stock": false
+     }
+    ]
+   },
+   {
+    "shop": "other:zoogurman.ru",
+    "url": "https://zoogurman.ru/shop/zoogurman/korm-dlya-koshek-zoogurman/suhoy-korm-koshki-breedersway-korm-dlya-koshek-zoogurman/zoogurman-cat-superpremium/1-5kg-zoogurman-cat-sterilized-indeyka-27-13-suhoy-korm/",
+    "offers": [
+     {
+      "weight_g": 350,
+      "price_rub": 367.62,
+      "in_stock": true
+     },
+     {
+      "weight_g": 1500,
+      "price_rub": 1368.82,
+      "in_stock": true
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "key": "probalance",
+  "id": 900004,
+  "brand": "Probalance",
+  "title": "PROBALANCE CAT STERILIZED для взрослых кастрированных котов и стерилизованных кошек с курицей и рисом",
+  "name": "Probalance Sterilized курица",
+  "line_flavor": "Sterilized, курица и рис",
+  "ingredients_top5": [
+   "дегидратированное мясо птицы мин. 30% (в т.ч. курица мин. 23%)",
+   "рис",
+   "ячмень",
+   "протеины растительного происхождения",
+   "куриный жир"
+  ],
+  "ingredients_full": "Дегидратированное мясо птицы минимум 30% (в т. ч. из курицы мин. 23%), рис, ячмень, протеины растительного происхождения, куриный жир, горох, жом свекловичный, натуральные вкусоароматические добавки, пивные дрожжи (источник витаминов группы В), льняное семя (источник Омега-3 и Омега-6 жирных кислот), яичный порошок, витаминно-минеральная добавка для кошек (витамины А, D3, Е, В1, В2, В3, В4, В5, В6, В9 (фолиевая кислота), В12, Н (биотин), железо, медь, цинк, марганец, йод, селен), соль, рыбий жир, фитокомпозиция (календулы цветки, клюква, ромашка, алтей корень, исландский мох), таурин, лизин, пребиотик, экстракт юкки шидигера, L-карнитин. Добавки, сохраняющие продукт: мико карб, натуральные антиоксиданты (смесь токоферолов).",
+  "first_ingredient_type": "generic_meat",
+  "meat_share_pct": 30,
+  "grain_free": false,
+  "has_plant_protein_isolate": true,
+  "has_sugar_or_artificial": false,
+  "composition_disclosed": "partial",
+  "protein": 32.0,
+  "fat": 12.0,
+  "fiber": 3.0,
+  "ash": 6.0,
+  "moisture": 10.0,
+  "calcium": 1.1,
+  "phosphorus": 0.9,
+  "magnesium": null,
+  "kcal_per_100g": 361,
+  "complete_feed": true,
+  "producer_country": "Россия",
+  "country_verified": true,
+  "notes": "Расхождение с цифрами пользователя: по Magizoo и garfield.by зола 6% (не 5,0), Ca 1,1% (не 1,0), P 0,9% (не 0,8). Цифры пользователя есть только у мелкого магазина zooshop21.ru, вероятно это старая этикетка. Сайт производителя (ООО «ВЭЛКОРМ») не найден; растительный белок не уточнён; есть отдельный вариант Sterilized Duck (зола 6,4%).",
+  "sources": [
+   "https://magizoo.ru/catalog/dlya_vzroslykh_koshek_probalance/476245/",
+   "https://garfield.by/catalog/cats/suhie-korma-dlya-koshek/probalance-rossiya/probalance-sterilized.html"
+  ],
+  "prices": [
+   {
+    "shop": "magizoo",
+    "url": "https://magizoo.ru/catalog/dlya_vzroslykh_koshek_probalance/1334297/",
+    "offers": [
+     {
+      "weight_g": 400,
+      "price_rub": 248,
+      "in_stock": true
+     },
+     {
+      "weight_g": 1800,
+      "price_rub": 1041,
+      "in_stock": true
+     },
+     {
+      "weight_g": 8000,
+      "price_rub": 4295,
+      "in_stock": true
+     }
+    ]
+   },
+   {
+    "shop": "other:probalance.su",
+    "url": "https://probalance.su/magazin/product/probalance-sterilized-cat-suhoj-korm-dlya-sterilizovannyh-koshek-i-kastrirovannyh-kotov-1-8-kg",
+    "offers": [
+     {
+      "weight_g": 1800,
+      "price_rub": 975,
+      "in_stock": true
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sanabelle",
+  "id": 900005,
+  "brand": "Sanabelle",
+  "title": "Sanabelle Sterilized (Bosch Tiernahrung) — беззерновой сухой корм для кастрированных и стерилизованных кошек",
+  "name": "Sanabelle Sterilized птица",
+  "line_flavor": "Sterilized, домашняя птица",
+  "ingredients_top5": [
+   "мясо птицы (свежее, 20%)",
+   "белок птицы (сушёный)",
+   "картофель (сушёный, 18%)",
+   "картофельный крахмал",
+   "свежая печень (5%)"
+  ],
+  "ingredients_full": "Мясо птицы (свежее, 20%), белок птицы (сушёный), картофель (сушёный, 18%), картофельный крахмал, свежая печень (5%), свекловичный жом (обессахаренный), гидролизат белка, печёночная мука, гороховые волокна, гороховый крахмал, целлюлоза, лососевый жир, шкварки (сушёные), льняное семя, рыбная мука, дрожжи (сушёные, в т.ч. 0,1% маннанолигосахаридов, 0,06% бета-глюканов), хлорид калия, брусника (сушёная), черника (сушёная), зеленогубая мидия (сушёная), цветки календулы (сушёные), цикорий (сушёный), юкка (сушёная). Технологические добавки: антиоксиданты, консерванты.",
+  "first_ingredient_type": "generic_meat",
+  "meat_share_pct": 51.3,
+  "grain_free": true,
+  "has_plant_protein_isolate": false,
+  "has_sugar_or_artificial": false,
+  "composition_disclosed": "partial",
+  "protein": 29.0,
+  "fat": 9.5,
+  "fiber": 5.5,
+  "ash": 7.0,
+  "moisture": 10.0,
+  "calcium": 1.2,
+  "phosphorus": 1.1,
+  "magnesium": 0.08,
+  "kcal_per_100g": 346,
+  "complete_feed": true,
+  "producer_country": "Германия",
+  "country_verified": true,
+  "notes": "Расхождение с цифрами пользователя: у производителя зола 7,0% (не 6,8), Ca 1,2% (не 1,1), P 1,1% (не 1,0); белок, жир и Mg совпадают. Состав переведён с немецкой страницы производителя, доля животных белковых компонентов 51,3% указана им же; консерванты не раскрыты. Фасовки 400 г, 2 кг и 10 кг; в Четырёх Лапах, Зоозавре и Магизоо корма нет.",
+  "sources": [
+   "https://www.bosch-tiernahrung.de/bosch_de_de/care-sterilized.html"
+  ],
+  "prices": []
+ }
+]

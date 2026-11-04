@@ -9,10 +9,23 @@ OUT = sys.argv[2]
 det = {d['id']: d for d in json.load(open(f'{S}/petshop/details.json'))}
 comp = {c['id']: c for c in json.load(open(f'{S}/compositions.json'))}
 countries = {int(k): v for k, v in json.load(open(f'{S}/countries.json')).items()}
+# Feeds not sold on Petshop: composition and prices gathered from brand sites and other shops.
+EXTRA_PATH = f'{S}/extra/feeds.json'
+extra = json.load(open(EXTRA_PATH)) if os.path.exists(EXTRA_PATH) else []
+COMP_KEYS = ('name', 'line_flavor', 'ingredients_top5', 'first_ingredient_type', 'meat_share_pct', 'grain_free',
+             'has_plant_protein_isolate', 'has_sugar_or_artificial', 'composition_disclosed', 'protein', 'fat', 'fiber',
+             'ash', 'moisture', 'calcium', 'phosphorus', 'magnesium', 'kcal_per_100g', 'complete_feed', 'notes')
+meta = dict(det)
+for e in extra:
+    meta[e['id']] = {'seg': e.get('seg', 'dry_steril'), 'id': e['id'], 'brand': e['brand'], 'title': e['title'],
+                     'rating': None, 'ratingCount': None}
+    comp[e['id']] = {k: e.get(k) for k in COMP_KEYS}
+    countries[e['id']] = {'country': e.get('producer_country'), 'verified': e.get('country_verified')}
 
 SHOPS = {
     'petshop': 'Petshop', 'ozon': 'Ozon', 'yamarket': 'Яндекс Маркет', '4lapy': 'Четыре Лапы',
     'wildberries': 'Wildberries', 'zoozavr': 'Зоозавр', 'beethoven': 'Бетховен', 'magizoo': 'Магизоо', 'zooopttorg': 'ЗооОптТорг',
+    'brand': 'Сайт бренда',
 }
 # Typical values used when a label omits moisture, ash or fibre.
 DEF = {'dry': {'moist': 10, 'ash': 7, 'fiber': 3}, 'wet': {'moist': 80, 'ash': 2.2, 'fiber': 0.5}}
@@ -45,6 +58,16 @@ def shop_offers():
             if r.get('found') and offs:
                 offs = [{**o, 'url': o.get('url') or r.get('url')} for o in offs]
                 res.setdefault(r['id'], {})[shop] = {'offers': offs, 'note': (offs[0].get('price_note') or r.get('note'))}
+    for e in extra:
+        for pr in e.get('prices') or []:
+            shop = pr['shop']
+            note = None
+            if shop.startswith('other:'):
+                note = shop[6:]
+                shop = 'brand'
+            offs = [{**o, 'url': o.get('url') or pr.get('url')} for o in pr.get('offers') or [] if o.get('weight_g') and o.get('price_rub')]
+            if offs:
+                res.setdefault(e['id'], {})[shop] = {'offers': offs, 'note': note}
     return res
 
 
@@ -129,7 +152,7 @@ def item(i, d, c, offers):
 
 def main():
     offers = shop_offers()
-    items = [item(i, d, comp[i], offers) for i, d in det.items()]
+    items = [item(i, d, comp[i], offers) for i, d in meta.items()]
     for kind in ('dry', 'wet'):
         grp = sorted([x for x in items if x['kind'] == kind and x['best100']], key=lambda x: x['best100'])
         n = len(grp)
