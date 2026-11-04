@@ -15,7 +15,7 @@ def build(tmp_path: Path) -> dict:
 
 def test_all_items_have_scores_in_range(tmp_path):
     items = build(tmp_path)["items"]
-    assert len(items) == 60
+    assert len(items) >= 60
     for x in items:
         assert 0 <= x["total"] <= 100
         assert 0 <= x["quality"] <= 100

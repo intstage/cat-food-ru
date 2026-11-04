@@ -1796,5 +1796,35 @@
   "complete_feed": null,
   "producer_country": null,
   "notes": "новый состав; основа — курица мех. обвалки, говядины ≥4%; мясокостная мука, плазма крови; белок «не менее», жир и влага «не более»; карточка 163 ккал = старый состав"
+ },
+ {
+  "id": 95846,
+  "name": "Best Dinner Adult Sterilised ягнёнок и ягоды",
+  "line_flavor": "Adult Sterilised Lamb & Wildberry",
+  "ingredients_top5": [
+   "дегидрированное мясо 30% (птица 18%, индейка 12%)",
+   "мясо ягнёнка 18,6%",
+   "рис",
+   "ячмень",
+   "хлопья овсяные"
+  ],
+  "first_ingredient_type": "named_meat",
+  "meat_share_pct": 48.6,
+  "grain_free": false,
+  "has_plant_protein_isolate": true,
+  "has_sugar_or_artificial": false,
+  "composition_disclosed": "partial",
+  "protein": 30.0,
+  "fat": 13.0,
+  "fiber": 3.0,
+  "ash": 6.2,
+  "moisture": 8.0,
+  "calcium": 1.1,
+  "phosphorus": 0.9,
+  "magnesium": 0.13,
+  "kcal_per_100g": 375,
+  "complete_feed": true,
+  "producer_country": "Россия",
+  "notes": "Состав и анализ с сайта производителя (на Petshop не указаны). Три злака в первой пятёрке и рисовый растительный белок; «71% животного белка» на упаковке — доля от всего белка, а не от корма."
  }
 ]

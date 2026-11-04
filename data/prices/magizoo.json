@@ -1336,5 +1336,27 @@
    }
   ],
   "checked_at": "2026-11-04"
+ },
+ {
+  "id": 95846,
+  "shop": "magizoo",
+  "found": true,
+  "url": "https://magizoo.ru/catalog/suhie_korma_dlya_koshek_best_dinner/1068686/",
+  "offers": [
+   {
+    "weight_g": 400,
+    "price_rub": 510,
+    "in_stock": true
+   },
+   {
+    "weight_g": 1500,
+    "price_rub": 1618
+   },
+   {
+    "weight_g": 10000,
+    "price_rub": 7838
+   }
+  ],
+  "checked_at": "2026-11-04"
  }
 ]
