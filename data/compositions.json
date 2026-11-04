@@ -1856,5 +1856,63 @@
   "complete_feed": true,
   "producer_country": "Сербия",
   "notes": "Мясо перепела 62%, кроме него сельдь и яйца: корм не монобелковый. Зола 8,7%, кальций 1,5% и фосфор 1,3% по данным Petshop выше, чем у большинства кормов в таблице; магний не указан."
+ },
+ {
+  "id": 95843,
+  "name": "Best Dinner Sterilised мусс ягнёнок с клюквой",
+  "line_flavor": "Мусс сливочный Sterilised, ягнёнок с клюквой",
+  "ingredients_top5": [
+   "курица",
+   "ягнёнок",
+   "сливки молочные",
+   "мука пшеничная",
+   "масло растительное"
+  ],
+  "first_ingredient_type": "named_meat",
+  "meat_share_pct": null,
+  "grain_free": false,
+  "has_plant_protein_isolate": false,
+  "has_sugar_or_artificial": false,
+  "composition_disclosed": "generic",
+  "protein": 9.0,
+  "fat": 6.5,
+  "fiber": 0.5,
+  "ash": 2.0,
+  "moisture": 85.0,
+  "calcium": 0.1,
+  "phosphorus": 0.1,
+  "magnesium": 0.004,
+  "kcal_per_100g": 87,
+  "complete_feed": null,
+  "notes": "Состав и анализ с Petshop. Доли мяса не указаны; в составе сливки и пшеничная мука. Жира много для стерилизованных — около 43% на сухое вещество. В описании не сказано, что корм полнорационный. Ca и P заявлены как «не более 0,1%». По этикетке белок, жир, зола, клетчатка и влага в сумме дают больше 100%, поэтому расчётные углеводы — около 0%. При сливках и муке в составе это, скорее всего, неточность этикетки, а не реальное значение."
+ },
+ {
+  "id": 121032,
+  "name": "Best Dinner паштет для стерилизованных с ягнёнком",
+  "line_flavor": "Паштет для стерилизованных, ягнёнок",
+  "ingredients_top5": [
+   "мясо и субпродукты ≥85% (ягнёнок ≥6%)",
+   "мука пшеничная",
+   "таурин",
+   "витамины",
+   "DL-метионин"
+  ],
+  "first_ingredient_type": "generic_meat",
+  "meat_share_pct": 85,
+  "grain_free": false,
+  "has_plant_protein_isolate": false,
+  "has_sugar_or_artificial": false,
+  "composition_disclosed": "generic",
+  "protein": 12.0,
+  "fat": 6.0,
+  "fiber": 0.5,
+  "ash": 1.8,
+  "moisture": 79.0,
+  "calcium": null,
+  "phosphorus": null,
+  "magnesium": null,
+  "kcal_per_100g": null,
+  "complete_feed": true,
+  "notes": "Состав с Petshop. «Мясо и субпродукты» без указания вида; ягнёнка — от 6%. Минералы не указаны. Заявлен как полнорационный."
  }
 ]

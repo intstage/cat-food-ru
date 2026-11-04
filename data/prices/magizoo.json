@@ -1358,5 +1358,31 @@
    }
   ],
   "checked_at": "2026-11-04"
+ },
+ {
+  "id": 95843,
+  "shop": "magizoo",
+  "found": true,
+  "matched_title": "Влажный корм BEST DINNER для кастрированных котов и стерилизованных кошек сливочный мусс с ягненком и клюквой пауч (85 гр)",
+  "url": "https://magizoo.ru/catalog/best_dinner_exclusive/1392101/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 143,
+    "old_price_rub": 207,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 121032,
+  "shop": "magizoo",
+  "found": false,
+  "matched_title": null,
+  "url": null,
+  "offers": [],
+  "checked_at": "2026-11-04",
+  "note": "not sold / no exact match"
  }
 ]
