@@ -47,6 +47,15 @@ section{display:grid;gap:14px}
 .score{display:inline-grid;place-items:center;width:34px;height:26px;border-radius:6px;font-weight:700;font-size:13px;color:#fff}
 .s-good{background:var(--good)} .s-mid{background:var(--mid)} .s-bad{background:var(--bad)}
 .pick .nm{font-weight:500;line-height:1.25}
+.pick li{cursor:pointer;transition:border-color .15s,background .15s}
+.pick li:hover,.pick li:focus-visible{border-color:var(--accent);background:var(--accent-soft)}
+#plot .pt{cursor:pointer}
+#plot .pt:hover>*,#plot .pt:focus>*{stroke:var(--ink);stroke-width:2}
+tr.det td>.detgrid{position:sticky;left:16px;width:min(1200px,calc(100vw - 80px))}
+#tbl{scroll-margin-top:12px}
+tr.row{scroll-margin-top:12px}
+tr.row.flash{animation:flash 1.6s ease-out}
+@keyframes flash{0%,40%{background:var(--accent-soft)}100%{background:transparent}}
 .pick .meta{display:block;margin-top:4px;font-size:12.5px;font-weight:400;color:var(--muted);line-height:1.4}
 .pick .pr{color:var(--ink);font-weight:600}
 .bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:end;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;position:sticky;top:0;z-index:3}
@@ -94,7 +103,7 @@ tr.det td{background:var(--paper);padding:14px 16px}
 .box ul{margin:0;padding-left:18px;display:grid;gap:4px}
 .box a{color:var(--accent)}
 .empty{padding:24px;text-align:center;color:var(--muted)}
-.c-name{position:sticky;left:0;background:var(--card);z-index:1;min-width:220px}
+.c-name{position:sticky;left:52px;background:var(--card);z-index:1;min-width:220px}
 tbody tr.row:hover .c-name{background:var(--accent-soft)}
 th.c-name{z-index:2}
 select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink)}
@@ -109,29 +118,15 @@ select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);
   input[type=search],select{min-width:0;width:100%;padding:10px 12px;font-size:16px}
   label.ck{font-size:14px;padding:4px 0}
   .ckgrp>span{display:none}
-  .tablebox{overflow:visible;background:transparent;border:0}
-  #tbl{min-width:0;font-size:14px}
-  #tbl thead{display:none}
-  #tbl tbody,#tbl tbody tr,#tbl tbody td{display:block}
-  #tbl tbody tr.row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 12px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px}
-  tbody tr.row:hover{background:var(--card)}
-  #tbl tbody td{border:0;padding:0;text-align:left}
-  #tbl td{height:auto!important}
-  #tbl .c-name{width:auto!important;max-width:none!important}
-  #tbl .tags{flex-wrap:wrap!important;overflow:visible!important;mask-image:none!important;-webkit-mask-image:none!important}
-  #tbl .fname{-webkit-line-clamp:3!important}
-  #tbl .c-seg,#tbl .c-first,#tbl .c-best100 .sub,#tbl td.num{white-space:normal!important}
-  #tbl .tag{white-space:normal!important}
-  #tbl .tags .tag{flex:0 1 auto!important;max-width:100%}
-  #tbl td.r{text-align:left}
-  .c-name{position:static;min-width:0;background:transparent;grid-column:1/3}
-  tbody tr.row:hover .c-name{background:transparent}
-  .c-total{grid-column:3;grid-row:1;text-align:right!important}
-  .c-rank,.c-first,.c-quality,.c-fdm,.c-shop{display:none!important}
-  td[data-l]::before{content:attr(data-l);display:block;font-size:12px;color:var(--muted);font-weight:400;margin-bottom:2px}
-  .meter{justify-content:flex-start}
-  #tbl tr.det{display:block;margin:-6px 0 12px}
-  #tbl tr.det td{display:block;border:1px solid var(--line);border-radius:10px;padding:14px}
+  #tbl{font-size:13px}
+  #tbl th,#tbl td{padding:7px 8px}
+  #tbl td{height:90px}
+  #tbl .c-name{width:150px!important;max-width:150px!important;min-width:150px!important;left:40px!important}
+  #tbl .fname{font-size:13px;-webkit-line-clamp:3!important}
+  #tbl th.c-cmp,#tbl td.c-cmp{width:40px!important;padding-left:12px!important;padding-right:4px!important}
+  #tbl .c-rank{display:none}
+  #tbl .tags .tag:nth-child(n+2){display:none}
+  tr.det td>.detgrid{width:calc(100vw - 66px);left:8px}
   .detgrid{grid-template-columns:1fr}
   .empty{background:var(--card);border-radius:10px}
   .pick{padding:12px}
@@ -150,7 +145,9 @@ select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);
 #tbl .c-seg,#tbl .c-first{white-space:nowrap}
 #tbl tr.det td{height:auto;vertical-align:top}
 #tbl .c-best100 .sub{white-space:nowrap}
-#tbl th.c-cmp,#tbl td.c-cmp{padding-left:18px;padding-right:6px}
+#tbl th.c-cmp,#tbl td.c-cmp{padding-left:18px;padding-right:6px;position:sticky;left:0;z-index:2;background:var(--card)}
+#tbl th.c-cmp{z-index:3}
+tbody tr.row:hover td.c-cmp{background:var(--accent-soft)}
 #tbl th.c-rank,#tbl td.c-rank{width:34px;padding-left:4px;padding-right:8px}
 #tbl td.c-cmp input{margin-top:1px}
 .c-cmp input,.cmpck input{width:18px;height:18px;accent-color:var(--accent);cursor:pointer;margin:0}
@@ -180,7 +177,7 @@ table.cmp td,table.cmp th{overflow-wrap:break-word;hyphens:auto}
 .cmpact{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .cmpact button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:6px 12px;cursor:pointer}
 body.hasbar .wrap{padding-bottom:96px}
-@media (max-width:760px){.c-cmp{grid-column:1/-1;order:99;width:auto;text-align:left;padding-top:8px!important;border-top:1px solid var(--line)!important}.cmpck span{display:inline;font-size:14px}table.cmp th.m,table.cmp td.m{width:108px}table.cmp{font-size:13px}table.cmp th,table.cmp td{padding:7px 8px}}
+@media (max-width:760px){table.cmp th.m,table.cmp td.m{width:108px}table.cmp{font-size:13px}table.cmp th,table.cmp td{padding:7px 8px}}
 </style>
 </head>
 <body>
@@ -221,7 +218,7 @@ body.hasbar .wrap{padding-bottom:96px}
 
 <section aria-labelledby="h-chart">
   <h2 id="h-chart">Качество состава и цена</h2>
-  <p class="muted">Каждая точка — корм из текущего фильтра, название видно при наведении. Левее и выше — лучший состав за меньшие деньги. Шкала цены логарифмическая.</p>
+  <p class="muted">Каждая точка — корм из текущего фильтра, название видно при наведении, нажмите на точку, чтобы открыть подробности. Левее и выше — лучший состав за меньшие деньги. Шкала цены логарифмическая.</p>
   <div class="chart"><div class="legend" id="legend"></div><svg id="plot" viewBox="0 0 900 420" role="img" aria-label="Диаграмма: балл качества состава против цены за 100 г"></svg></div>
 </section>
 
@@ -285,7 +282,7 @@ function picks(){
   const segs=[['dry',true,'Сухие для стерилизованных'],['dry',false,'Сухие для обычных'],['wet',true,'Влажные для стерилизованных'],['wet',false,'Влажные для обычных']];
   document.getElementById('picks').innerHTML=segs.map(([k,s,t])=>{
     const top=items.filter(x=>x.kind===k&&x.steril===s).sort((a,b)=>b.total-a.total).slice(0,3);
-    return `<div class="pick"><h3>${t}</h3><ol>${top.map(x=>`<li><span class="score ${cls(x.total)} num">${x.total}</span><span class="nm">${esc(x.name)}<span class="meta"><span class="pr num">${x.best100?fmt(x.best100,0)+' ₽/100 г':'нет цены'}</span>${x.best_shop?' · '+esc(SH[x.best_shop]):''}<br>${esc(x.country||'')}${x.origin==='RU'?' · РФ':' · импорт'}</span></span></li>`).join('')}</ol></div>`}).join('');
+    return `<div class="pick"><h3>${t}</h3><ol>${top.map(x=>`<li tabindex="0" role="button" data-go="${x.id}" aria-label="Подробнее: ${esc(x.name)}"><span class="score ${cls(x.total)} num">${x.total}</span><span class="nm">${esc(x.name)}<span class="meta"><span class="pr num">${x.best100?fmt(x.best100,0)+' ₽/100 г':'нет цены'}</span>${x.best_shop?' · '+esc(SH[x.best_shop]):''}<br>${esc(x.country||'')}${x.origin==='RU'?' · РФ':' · импорт'}</span></span></li>`).join('')}</ol></div>`}).join('');
 }
 const COLS=[
   {k:'cmp',t:'',nosort:true},
@@ -378,7 +375,7 @@ function plot(rows){
       placed.push(r);labs[p.id]=`<text x="${left?cx-9:cx+9}" y="${cy+dy}" text-anchor="${left?'end':'start'}" font-size="11.5" fill="${ink}" paint-order="stroke" stroke="${css('--card')}" stroke-width="3">${esc(txt)}</text>`;break}
   });
   g+=pts.map(p=>{const cx=X(p.best100),cy=Y(p.quality),c=colors[p.kind];const m=p.origin==='RU'?`<circle cx="${cx}" cy="${cy}" r="6" fill="${c}" fill-opacity=".8" stroke="${css('--card')}"/>`:`<rect x="${cx-5.5}" y="${cy-5.5}" width="11" height="11" transform="rotate(45 ${cx} ${cy})" fill="${c}" fill-opacity=".8" stroke="${css('--card')}"/>`;
-    return `<g><title>${esc(p.name)}: качество ${p.quality}, ${fmt(p.best100,1)} ₽/100 г</title>${m}</g>`}).join('')+Object.values(labs).join('');
+    return `<g class="pt" data-go="${p.id}" tabindex="0" role="button"><title>${esc(p.name)}: качество ${p.quality}, ${fmt(p.best100,1)} ₽/100 г</title>${m}</g>`}).join('')+Object.values(labs).join('');
   svg.innerHTML=g;
 }
 
@@ -449,6 +446,18 @@ const clearCmp=()=>{st.cmp=[];saveCmp();render()};
 document.getElementById('cmp-clear').onclick=clearCmp;document.getElementById('cmp-clear2').onclick=clearCmp;
 document.getElementById('cmp-copy').onclick=async e=>{const b=e.currentTarget;try{await navigator.clipboard.writeText(location.href);b.textContent='Ссылка скопирована'}catch(_){prompt('Скопируйте ссылку',location.href)}setTimeout(()=>b.textContent='Скопировать ссылку',2000)};
 
+function goTo(id){
+  const x=byId(id);if(!x)return;
+  if(!filtered().some(y=>y.id===id)){st.kind='all';st.ster='all';st.orig='all';st.q='';st.an=false;
+    document.getElementById('q').value='';document.getElementById('f-an').checked=false;
+    ['f-kind','f-ster','f-orig'].forEach(g=>document.querySelectorAll('#'+g+' button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.v==='all')))}
+  st.open=new Set([id]);render();
+  const tr=document.querySelector(`#tbody tr.row[data-id="${id}"]`);if(!tr)return;
+  tr.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+  tr.classList.remove('flash');void tr.offsetWidth;tr.classList.add('flash');tr.focus({preventScroll:true});
+}
+document.addEventListener('click',e=>{const g=e.target.closest('[data-go]');if(g)goTo(+g.dataset.go)});
+document.addEventListener('keydown',e=>{if(e.key!=='Enter'&&e.key!==' ')return;const g=e.target.closest&&e.target.closest('[data-go]');if(g){e.preventDefault();goTo(+g.dataset.go)}});
 function render(){const rows=filtered();document.getElementById('count').textContent=`Показано ${rows.length} из ${items.length}. Нажмите на корм, чтобы открыть состав и все цены. * — нет в наличии.`;head();body(rows);plot(rows);const so=document.getElementById('sort');if([...so.options].some(o=>o.value===st.sort))so.value=st.sort;renderCmp()}
 function bindSeg(id,key){document.querySelectorAll('#'+id+' button').forEach(b=>b.onclick=()=>{st[key]=b.dataset.v;document.querySelectorAll('#'+id+' button').forEach(o=>o.setAttribute('aria-pressed',o===b));render()})}
 bindSeg('f-kind','kind');bindSeg('f-ster','ster');bindSeg('f-orig','orig');
