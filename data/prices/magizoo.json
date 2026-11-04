@@ -1384,5 +1384,37 @@
   "offers": [],
   "checked_at": "2026-11-04",
   "note": "not sold / no exact match"
+ },
+ {
+  "id": 95848,
+  "shop": "magizoo",
+  "found": true,
+  "matched_title": "Влажный корм BEST DINNER МЯСНЫЕ ДЕЛИКАТЕСЫ STERILISED для кастрированных котов и стерилизованных кошек суфле с индейкой пауч (85 гр)",
+  "url": "https://magizoo.ru/catalog/best_dinner_myasnye_delikatesy/1392103/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 89,
+    "old_price_rub": 129,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
+ },
+ {
+  "id": 95847,
+  "shop": "magizoo",
+  "found": true,
+  "matched_title": "Влажный корм BEST DINNER МЯСНЫЕ ДЕЛИКАТЕСЫ STERILISED для кастрированных котов и стерилизованных кошек суфле с телятиной пауч (85 гр)",
+  "url": "https://magizoo.ru/catalog/best_dinner_myasnye_delikatesy/1392104/",
+  "offers": [
+   {
+    "weight_g": 85,
+    "price_rub": 89,
+    "old_price_rub": 129,
+    "in_stock": true
+   }
+  ],
+  "checked_at": "2026-11-04"
  }
 ]

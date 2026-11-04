@@ -1914,5 +1914,63 @@
   "kcal_per_100g": null,
   "complete_feed": true,
   "notes": "Состав с Petshop. «Мясо и субпродукты» без указания вида; ягнёнка — от 6%. Минералы не указаны. Заявлен как полнорационный."
+ },
+ {
+  "id": 95848,
+  "name": "Best Dinner Sterilised суфле с индейкой",
+  "line_flavor": "Мясные деликатесы Sterilised, суфле с индейкой",
+  "ingredients_top5": [
+   "индейка",
+   "субпродукты мясные и птичьи",
+   "плазма крови",
+   "желирующая добавка",
+   "таурин"
+  ],
+  "first_ingredient_type": "named_meat",
+  "meat_share_pct": null,
+  "grain_free": true,
+  "has_plant_protein_isolate": false,
+  "has_sugar_or_artificial": false,
+  "composition_disclosed": "generic",
+  "protein": 8.0,
+  "fat": 5.0,
+  "fiber": 0.5,
+  "ash": 2.0,
+  "moisture": 80.0,
+  "calcium": 0.1,
+  "phosphorus": 0.113,
+  "magnesium": 0.0039,
+  "kcal_per_100g": 77,
+  "complete_feed": null,
+  "notes": "Состав с Petshop, анализ из карточки Магизоо. Субпродукты и плазма крови без указания долей; злаков нет. В описании корм назван сбалансированным, но не полнорационным. Ca и P заявлены как «не более 0,1%»."
+ },
+ {
+  "id": 95847,
+  "name": "Best Dinner Sterilised суфле с телятиной",
+  "line_flavor": "Мясные деликатесы Sterilised, суфле с телятиной",
+  "ingredients_top5": [
+   "телятина",
+   "субпродукты мясные и птичьи",
+   "плазма крови",
+   "желирующая добавка",
+   "таурин"
+  ],
+  "first_ingredient_type": "named_meat",
+  "meat_share_pct": null,
+  "grain_free": true,
+  "has_plant_protein_isolate": false,
+  "has_sugar_or_artificial": false,
+  "composition_disclosed": "generic",
+  "protein": 8.0,
+  "fat": 6.0,
+  "fiber": 0.5,
+  "ash": 2.0,
+  "moisture": 80.0,
+  "calcium": 0.1,
+  "phosphorus": 0.113,
+  "magnesium": 0.0035,
+  "kcal_per_100g": 86,
+  "complete_feed": null,
+  "notes": "Состав с Petshop, анализ из карточки Магизоо. Субпродукты и плазма крови без указания долей; злаков нет. В описании корм назван сбалансированным, но не полнорационным. Ca и P заявлены как «не более 0,1%»."
  }
 ]
