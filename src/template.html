@@ -221,7 +221,7 @@ body.hasbar .wrap{padding-bottom:96px}
 
 <section aria-labelledby="h-chart">
   <h2 id="h-chart">Качество состава и цена</h2>
-  <p class="muted">Каждая точка — корм из текущего фильтра. Правее и выше — лучший состав за меньшие деньги. Шкала цены логарифмическая.</p>
+  <p class="muted">Каждая точка — корм из текущего фильтра, название видно при наведении. Левее и выше — лучший состав за меньшие деньги. Шкала цены логарифмическая.</p>
   <div class="chart"><div class="legend" id="legend"></div><svg id="plot" viewBox="0 0 900 420" role="img" aria-label="Диаграмма: балл качества состава против цены за 100 г"></svg></div>
 </section>
 
@@ -368,7 +368,7 @@ function plot(rows){
   let g=[0,20,40,60,80,100].map(v=>`<line x1="${L}" x2="${W-R}" y1="${Y(v)}" y2="${Y(v)}" stroke="${grid}"/><text x="${L-8}" y="${Y(v)+4}" text-anchor="end" font-size="12" fill="${mu}">${v}</text>`).join('');
   g+=ticks.map(t=>`<line x1="${X(t)}" x2="${X(t)}" y1="${T}" y2="${H-B}" stroke="${grid}"/><text x="${X(t)}" y="${H-B+18}" text-anchor="middle" font-size="12" fill="${mu}">${t} ₽</text>`).join('');
   g+=`<text x="${(L+W-R)/2}" y="${H-8}" text-anchor="middle" font-size="12" fill="${mu}">Лучшая цена за 100 г</text><text transform="translate(14 ${(T+H-B)/2}) rotate(-90)" text-anchor="middle" font-size="12" fill="${mu}">Качество состава, из 100</text>`;
-  const top=new Set([...pts].sort((a,b)=>b.total-a.total).slice(0,narrow?0:6).map(p=>p.id));const ML=narrow?18:30;
+  const top=new Set([...pts].sort((a,b)=>b.total-a.total).slice(0,0).map(p=>p.id));const ML=narrow?18:30;
   const placed=[],labs={};
   [...pts].filter(p=>top.has(p.id)).sort((a,b)=>b.total-a.total).forEach(p=>{
     const cx=X(p.best100),cy=Y(p.quality),txt=p.name.length>ML?p.name.slice(0,ML-1)+'…':p.name,w=txt.length*6.4,h=14,left=cx>W-w-30;
