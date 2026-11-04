@@ -1826,5 +1826,35 @@
   "complete_feed": true,
   "producer_country": "Россия",
   "notes": "Состав и анализ с сайта производителя (на Petshop не указаны). Три злака в первой пятёрке и рисовый растительный белок; «71% животного белка» на упаковке — доля от всего белка, а не от корма."
+ },
+ {
+  "id": 79132,
+  "name": "Farmina N&D Pumpkin Neutered перепел, тыква и гранат",
+  "line_flavor": "N&D Pumpkin Neutered Quail",
+  "ingredients_top5": [
+   "свежее мясо перепела 32%",
+   "дегидрированное мясо перепела 30%",
+   "гороховый крахмал",
+   "дегидрированная тыква 5%",
+   "дегидрированные цельные яйца"
+  ],
+  "first_ingredient_type": "named_meat",
+  "meat_share_pct": 62,
+  "grain_free": true,
+  "has_plant_protein_isolate": false,
+  "has_sugar_or_artificial": false,
+  "composition_disclosed": "full",
+  "protein": 46.0,
+  "fat": 11.0,
+  "fiber": 5.5,
+  "ash": 8.7,
+  "moisture": 9.0,
+  "calcium": 1.5,
+  "phosphorus": 1.3,
+  "magnesium": null,
+  "kcal_per_100g": 363,
+  "complete_feed": true,
+  "producer_country": "Сербия",
+  "notes": "Мясо перепела 62%, кроме него сельдь и яйца: корм не монобелковый. Зола 8,7%, кальций 1,5% и фосфор 1,3% по данным Petshop выше, чем у большинства кормов в таблице; магний не указан."
  }
 ]

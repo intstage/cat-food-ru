@@ -929,5 +929,26 @@
   "offers": [],
   "checked_at": "2026-11-04",
   "note": "not sold / no exact match"
+ },
+ {
+  "id": 79132,
+  "shop": "4lapy",
+  "found": true,
+  "url": "https://4lapy.ru/product/farmina-nd-pumpkin-suhoj-korm-dlya-sterilizovannyh-koshek-i-kastrirovannyh-kotov-s-perepelom-tykvoj-i-granatom-1-5-kg-93691-1065338/",
+  "offers": [
+   {
+    "weight_g": 1500,
+    "price_rub": 4399,
+    "in_stock": false,
+    "url": "https://4lapy.ru/product/farmina-nd-pumpkin-suhoj-korm-dlya-sterilizovannyh-koshek-i-kastrirovannyh-kotov-s-perepelom-tykvoj-i-granatom-1-5-kg-93691-1065338/"
+   },
+   {
+    "weight_g": 5000,
+    "price_rub": 9359,
+    "in_stock": false,
+    "url": "https://4lapy.ru/product/farmina-nd-pumpkin-suhoj-korm-dlya-sterilizovannyh-koshek-i-kastrirovannyh-kotov-tykva-perepel-5-kg-93691-1065337/"
+   }
+  ],
+  "checked_at": "2026-11-04"
  }
 ]

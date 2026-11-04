@@ -106,21 +106,21 @@ select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);
   label.ck{font-size:14px;padding:4px 0}
   .ckgrp>span{display:none}
   .tablebox{overflow:visible;background:transparent;border:0}
-  table{min-width:0;font-size:14px}
-  thead{display:none}
-  tbody,tbody tr,tbody td{display:block}
-  tbody tr.row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 12px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px}
+  #tbl{min-width:0;font-size:14px}
+  #tbl thead{display:none}
+  #tbl tbody,#tbl tbody tr,#tbl tbody td{display:block}
+  #tbl tbody tr.row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 12px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px}
   tbody tr.row:hover{background:var(--card)}
-  tbody td{border:0;padding:0;text-align:left}
-  td.r{text-align:left}
+  #tbl tbody td{border:0;padding:0;text-align:left}
+  #tbl td.r{text-align:left}
   .c-name{position:static;min-width:0;background:transparent;grid-column:1/3}
   tbody tr.row:hover .c-name{background:transparent}
   .c-total{grid-column:3;grid-row:1;text-align:right!important}
   .c-rank,.c-first,.c-quality,.c-fdm,.c-shop{display:none!important}
   td[data-l]::before{content:attr(data-l);display:block;font-size:12px;color:var(--muted);font-weight:400;margin-bottom:2px}
   .meter{justify-content:flex-start}
-  tr.det{display:block;margin:-6px 0 12px}
-  tr.det td{display:block;border:1px solid var(--line);border-radius:10px;padding:14px}
+  #tbl tr.det{display:block;margin:-6px 0 12px}
+  #tbl tr.det td{display:block;border:1px solid var(--line);border-radius:10px;padding:14px}
   .detgrid{grid-template-columns:1fr}
   .empty{background:var(--card);border-radius:10px}
   .pick{padding:14px}
@@ -129,6 +129,35 @@ select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);
   .chart{padding:10px 8px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+.c-cmp{width:34px;text-align:center}
+.c-cmp input,.cmpck input{width:18px;height:18px;accent-color:var(--accent);cursor:pointer;margin:0}
+.cmpck{display:inline-flex;align-items:center;gap:8px;cursor:pointer}
+.cmpck span{display:none}
+tr.row.sel{box-shadow:inset 3px 0 0 var(--accent)}
+.cmpbar{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:10;display:flex;align-items:center;gap:8px;flex-wrap:nowrap;white-space:nowrap;justify-content:center;background:var(--ink);color:var(--paper);border-radius:12px;padding:10px 12px 10px 16px;box-shadow:0 6px 24px rgba(0,0,0,.25);max-width:calc(100vw - 32px);font-size:14px}
+.cmpbar[hidden]{display:none}
+.cmpbar button{font:inherit;font-size:14px;border:0;border-radius:8px;padding:8px 14px;cursor:pointer}
+.cmpbar .go{background:var(--accent);color:#fff;font-weight:600}
+.cmpbar .clr{background:transparent;color:inherit;opacity:.8;text-decoration:underline}
+#cmp-sec[hidden]{display:none}
+.cmpbox{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
+table.cmp{min-width:0;width:100%;font-size:13.5px;table-layout:fixed}
+table.cmp th,table.cmp td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top;cursor:default;white-space:normal;position:static}
+table.cmp thead th{color:var(--ink);font-size:13px;font-weight:600;background:var(--accent-soft)}
+table.cmp th.m,table.cmp td.m{position:sticky;left:0;background:var(--card);color:var(--muted);font-size:12.5px;font-weight:500;width:150px;z-index:1}
+table.cmp thead th.m{background:var(--accent-soft)}
+table.cmp tr.grp .gl{position:sticky;left:10px}
+table.cmp tr.grp td{background:var(--paper);font-family:var(--display);font-size:12.5px;color:var(--ink);font-weight:500;padding-top:12px}
+table.cmp td.win{color:var(--good);font-weight:700}
+table.cmp td.win::after{content:" ★";font-size:11px}
+table.cmp .x{display:block;margin-top:6px;font:inherit;font-size:12px;color:var(--muted);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline}
+table.cmp ul{margin:0;padding-left:16px}
+.cmphint{font-size:13px;color:var(--muted)}
+.cmpact{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.cmpact button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:6px 12px;cursor:pointer}
+body.hasbar .wrap{padding-bottom:96px}
+@media (max-width:760px){.c-cmp{grid-column:1/-1;order:99;width:auto;text-align:left;padding-top:8px!important;border-top:1px solid var(--line)!important}.cmpck span{display:inline;font-size:14px}table.cmp th.m,table.cmp td.m{width:108px}table.cmp{font-size:13px}table.cmp th,table.cmp td{padding:7px 8px}}
 </style>
 </head>
 <body>
@@ -158,6 +187,12 @@ select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);
   <p class="sub" id="count"></p>
   <div class="tablebox"><table id="tbl"><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
   <p class="sub">СВ — на сухое вещество, то есть без учёта воды: так сухие и влажные корма можно сравнивать между собой. Нажмите на строку, чтобы открыть состав и все цены. «300 г» и «1,5 кг» — стоимость такого количества корма по самой выгодной найденной цене за 100 г.</p>
+</section>
+
+<section id="cmp-sec" aria-labelledby="h-cmp" hidden>
+  <h2 id="h-cmp">Сравнение выбранных кормов</h2>
+  <div class="cmpact"><p class="cmphint">Звёздочкой отмечено лучшее значение в строке. Ссылку на эту страницу можно отправить — выбор сохранится.</p><button type="button" id="cmp-copy">Скопировать ссылку</button><button type="button" id="cmp-clear2">Очистить</button></div>
+  <div class="cmpbox"><table class="cmp" id="cmp"></table></div>
 </section>
 
 <section aria-labelledby="h-chart">
@@ -199,12 +234,14 @@ select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);
   </div>
 </section>
 </div>
+<div class="cmpbar" id="cmpbar" hidden role="region" aria-label="Сравнение"><span id="cmpn"></span><button type="button" class="go" id="cmp-go">Сравнить</button><button type="button" class="clr" id="cmp-clear">Сбросить</button></div>
 <script>
 const DATA=/*DATA*/null;
 const items=DATA.items, SH=DATA.shops;
 const shopKeys=Object.keys(SH).filter(k=>items.some(x=>x.shops[k]));
 const ASC=k=>['name','seg','first','best100','p300','p1500','cdm'].includes(k)||k.startsWith('shop:');
-const st={kind:'all',ster:'all',orig:'all',q:'',an:false,sort:'total',dir:-1,open:new Set()};
+const st={kind:'all',ster:'all',orig:'all',q:'',an:false,sort:'total',dir:-1,open:new Set(),cmp:[]};
+const CMPMAX=6;
 const fmt=(v,d=0)=>v==null?'—':Number(v).toLocaleString('ru-RU',{minimumFractionDigits:d,maximumFractionDigits:d});
 const rub=v=>v==null?'—':fmt(v)+' ₽';
 const cls=s=>s>=65?'s-good':s>=45?'s-mid':'s-bad';
@@ -226,6 +263,7 @@ function picks(){
     return `<div class="pick"><h3>${t}</h3><ol>${top.map(x=>`<li><span class="score ${cls(x.total)} num">${x.total}</span><span class="nm">${esc(x.name)}<br><span class="sub">${esc(x.country||'')}${x.origin==='RU'?' · РФ':' · импорт'}</span></span><span class="pr num">${x.best100?fmt(x.best100,0)+' ₽/100 г':'нет цены'}<br>${x.best_shop?esc(SH[x.best_shop]):''}</span></li>`).join('')}</ol></div>`}).join('');
 }
 const COLS=[
+  {k:'cmp',t:'',nosort:true},
   {k:'rank',t:'#',r:true,nosort:true},
   {k:'name',t:'Корм'},
   {k:'total',t:'Итог',r:true},
@@ -272,6 +310,7 @@ function body(rows){
     if(x.plant_isolate)tags.push('<span class="tag warn">растит. белок</span>');
     if(x.complete===false)tags.push('<span class="tag warn">не полнорационный</span>');
     const cells=[
+      `<td class="c-cmp"><label class="cmpck"><input type="checkbox" data-cmp="${x.id}" ${st.cmp.includes(x.id)?'checked':''} aria-label="Добавить к сравнению: ${esc(x.name)}"><span>Сравнить</span></label></td>`,
       `<td class="r num sub c-rank">${i+1}</td>`,
       `<td class="c-name"><div class="fname">${esc(x.name)}</div>${tags.join('')}</td>`,
       `<td class="r c-total"><span class="score ${cls(x.total)} num" title="Итоговый балл">${x.total}</span></td>`,
@@ -286,8 +325,9 @@ function body(rows){
       `<td class="sub c-first">${FIRST[x.first]||'—'}</td>`,
       ...shopKeys.map(s=>{const v=x.shops[s];return `<td class="r num c-shop ${v&&x.best_shop===s?'best':''}">${v?fmt(v.unit100,1)+(v.in_stock?'':'*'):'<span class="na">—</span>'}</td>`})
     ];
-    return `<tr class="row" tabindex="0" data-id="${x.id}" aria-expanded="${st.open.has(x.id)}">${cells.join('')}</tr>${st.open.has(x.id)?detail(x):''}`}).join('');
-  tb.querySelectorAll('tr.row').forEach(tr=>{const go=()=>{const id=+tr.dataset.id;st.open.has(id)?st.open.delete(id):st.open.add(id);render()};tr.onclick=e=>{if(e.target.closest('a'))return;go()};tr.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}}});
+    return `<tr class="row${st.cmp.includes(x.id)?' sel':''}" tabindex="0" data-id="${x.id}" aria-expanded="${st.open.has(x.id)}">${cells.join('')}</tr>${st.open.has(x.id)?detail(x):''}`}).join('');
+  tb.querySelectorAll('input[data-cmp]').forEach(cb=>cb.onchange=()=>toggleCmp(+cb.dataset.cmp,cb.checked));
+  tb.querySelectorAll('tr.row').forEach(tr=>{const go=()=>{const id=+tr.dataset.id;st.open.has(id)?st.open.delete(id):st.open.add(id);render()};tr.onclick=e=>{if(e.target.closest('a,label,input'))return;go()};tr.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}}});
 }
 function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim()}
 function plot(rows){
@@ -316,7 +356,75 @@ function plot(rows){
     return `<g><title>${esc(p.name)}: качество ${p.quality}, ${fmt(p.best100,1)} ₽/100 г</title>${m}</g>`}).join('')+Object.values(labs).join('');
   svg.innerHTML=g;
 }
-function render(){const rows=filtered();document.getElementById('count').textContent=`Показано ${rows.length} из ${items.length}. Нажмите на корм, чтобы открыть состав и все цены. * — нет в наличии.`;head();body(rows);plot(rows);const so=document.getElementById('sort');if([...so.options].some(o=>o.value===st.sort))so.value=st.sort}
+
+function toggleCmp(id,on){
+  const s=st.cmp.filter(v=>v!==id);
+  if(on){if(s.length>=CMPMAX){alert(`Можно сравнить до ${CMPMAX} кормов`);render();return}s.push(id)}
+  st.cmp=s;saveCmp();render();
+}
+function saveCmp(){try{const u=new URL(location.href);if(st.cmp.length)u.searchParams.set('cmp',st.cmp.join(','));else u.searchParams.delete('cmp');history.replaceState(null,'',u)}catch(e){}}
+function loadCmp(){try{const v=new URL(location.href).searchParams.get('cmp');if(v){const ids=new Set(items.map(x=>x.id));st.cmp=v.split(',').map(Number).filter(n=>ids.has(n)).slice(0,CMPMAX)}}catch(e){}}
+const byId=id=>items.find(x=>x.id===id);
+const pct=v=>v==null?'—':fmt(v,1)+'%';
+const pack=g=>g>=1000?fmt(g/1000,g%1000?1:0)+' кг':g+' г';
+function cmpRows(){
+  return [
+    ['Итог',null],
+    ['Итоговый балл',x=>x.total,x=>`<span class="score ${cls(x.total)} num">${x.total}</span>`,1],
+    ['Качество состава',x=>x.quality,x=>x.quality,1],
+    ['Тип',null,x=>segName(x)],
+    ['Страна',null,x=>esc(x.country||'—')+(x.country_verified?'':' <span class="sub">(не проверено)</span>')],
+    ['Цена',null],
+    ['₽ за 100 г',x=>x.best100,x=>x.best100?fmt(x.best100,1)+` <span class="sub">${esc(SH[x.best_shop]||'')}</span>`:'—',-1],
+    ['300 г',x=>x.p300,x=>rub(x.p300),-1],
+    ['1,5 кг',x=>x.p1500,x=>rub(x.p1500),-1],
+    ['По магазинам',null,x=>{const e=Object.entries(x.shops).sort((a,b)=>a[1].unit100-b[1].unit100);return e.length?`<ul>${e.map(([k,v])=>`<li>${esc(SH[k])}: ${fmt(v.unit100,1)} ₽/100 г${v.in_stock?'':' <span class="sub">(нет)</span>'}</li>`).join('')}</ul>`:'—'}],
+    ['На сухое вещество',null],
+    ['Белок СВ',x=>x.pdm,x=>pct(x.pdm),1],
+    ['Жир СВ',x=>x.fdm,x=>pct(x.fdm)],
+    ['Углеводы СВ',x=>x.cdm,x=>pct(x.cdm),-1],
+    ['Анализ на этикетке',null],
+    ['Белок',x=>x.p,x=>pct(x.p),1],
+    ['Жир',x=>x.f,x=>pct(x.f)],
+    ['Клетчатка',x=>x.fib,x=>pct(x.fib)],
+    ['Зола',x=>x.ash,x=>pct(x.ash),-1],
+    ['Влага',x=>x.moist,x=>pct(x.moist)],
+    ['Кальций',x=>x.ca,x=>pct(x.ca)],
+    ['Фосфор',x=>x.ph,x=>pct(x.ph)],
+    ['Магний',x=>x.mg,x=>x.mg==null?'—':fmt(x.mg,2)+'%',-1],
+    ['Ккал на 100 г',x=>x.kcal,x=>x.kcal?fmt(x.kcal)+(x.kcal_est?' <span class="sub">(расчёт)</span>':''):'—'],
+    ['Состав',null],
+    ['Первый ингредиент',null,x=>FIRST[x.first]||'—'],
+    ['Первые ингредиенты',null,x=>`<ul>${(x.top5||[]).map(i=>`<li>${esc(i)}</li>`).join('')}</ul>`],
+    ['Особенности',null,x=>{const t=[];if(x.grain_free)t.push('без злаков');if(x.plant_isolate)t.push('растительный белок');if(x.sugar)t.push('сахар или красители');if(x.complete===false)t.push('не полнорационный');if(!x.has_analysis)t.push('нет анализа');return t.join(', ')||'—'}],
+    ['Заметки',null,x=>`<span class="sub">${esc(x.notes||'')}</span>`],
+  ];
+}
+function renderCmp(){
+  const n=st.cmp.length,bar=document.getElementById('cmpbar'),sec=document.getElementById('cmp-sec');
+  bar.hidden=n===0;document.body.classList.toggle('hasbar',n>0);
+  document.getElementById('cmpn').textContent=n===1?'Выбран 1, добавьте ещё':`Выбрано: ${n}`;
+  document.getElementById('cmp-go').disabled=n<2;
+  sec.hidden=n<2;
+  if(n<2)return;
+  const xs=st.cmp.map(byId).filter(Boolean);
+  let h=`<colgroup><col class="mcol">${xs.map(()=>'<col>').join('')}</colgroup><thead><tr><th class="m" scope="col">Показатель</th>${xs.map(x=>`<th scope="col">${esc(x.name)}<button type="button" class="x" data-rm="${x.id}">убрать</button></th>`).join('')}</tr></thead><tbody>`;
+  for(const [label,get,show,dir] of cmpRows()){
+    if(!show){h+=`<tr class="grp"><td colspan="${xs.length+1}"><span class="gl">${label}</span></td></tr>`;continue}
+    let win=null;
+    if(dir&&get){const vals=xs.map(get).filter(v=>v!=null);if(vals.length>1){const b=dir>0?Math.max(...vals):Math.min(...vals);if(vals.filter(v=>v===b).length<vals.length)win=b}}
+    h+=`<tr><td class="m">${label}</td>${xs.map(x=>`<td class="${win!=null&&get(x)===win?'win':''} ${get?'num':''}">${show(x)}</td>`).join('')}</tr>`;
+  }
+  const tb=document.getElementById('cmp');tb.innerHTML=h+'</tbody>';
+  const nar=innerWidth<=760;tb.style.minWidth=((nar?108:150)+xs.length*(nar?150:170))+'px';
+  tb.querySelectorAll('[data-rm]').forEach(b=>b.onclick=()=>toggleCmp(+b.dataset.rm,false));
+}
+document.getElementById('cmp-go').onclick=()=>document.getElementById('cmp-sec').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+const clearCmp=()=>{st.cmp=[];saveCmp();render()};
+document.getElementById('cmp-clear').onclick=clearCmp;document.getElementById('cmp-clear2').onclick=clearCmp;
+document.getElementById('cmp-copy').onclick=async e=>{const b=e.currentTarget;try{await navigator.clipboard.writeText(location.href);b.textContent='Ссылка скопирована'}catch(_){prompt('Скопируйте ссылку',location.href)}setTimeout(()=>b.textContent='Скопировать ссылку',2000)};
+
+function render(){const rows=filtered();document.getElementById('count').textContent=`Показано ${rows.length} из ${items.length}. Нажмите на корм, чтобы открыть состав и все цены. * — нет в наличии.`;head();body(rows);plot(rows);const so=document.getElementById('sort');if([...so.options].some(o=>o.value===st.sort))so.value=st.sort;renderCmp()}
 function bindSeg(id,key){document.querySelectorAll('#'+id+' button').forEach(b=>b.onclick=()=>{st[key]=b.dataset.v;document.querySelectorAll('#'+id+' button').forEach(o=>o.setAttribute('aria-pressed',o===b));render()})}
 bindSeg('f-kind','kind');bindSeg('f-ster','ster');bindSeg('f-orig','orig');
 document.getElementById('q').oninput=e=>{st.q=e.target.value;render()};
@@ -324,7 +432,7 @@ document.getElementById('sort').onchange=e=>{st.sort=e.target.value;st.dir=ASC(s
 document.getElementById('f-an').onchange=e=>{st.an=e.target.checked;render()};
 matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change',render);
 new MutationObserver(render).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
-lead();picks();render();
+loadCmp();lead();picks();render();
 let rz;addEventListener('resize',()=>{clearTimeout(rz);rz=setTimeout(()=>plot(filtered()),150)});
 </script>
 </body>
